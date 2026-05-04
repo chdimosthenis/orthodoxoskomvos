@@ -33,6 +33,14 @@ const jsonld = {
 <BaseLayout title={entry.data.name} description={entry.data.life} jsonld={jsonld}>
   <article>
     <header class="saint-header">
+      {entry.data.iconUrl && (
+        <figure class="saint-icon">
+          <img src={entry.data.iconUrl} alt={`Icon of ${entry.data.name}`} loading="eager" decoding="async" />
+          {entry.data.iconAttribution && (
+            <figcaption>{t('icon.attribution')}: {entry.data.iconAttribution}</figcaption>
+          )}
+        </figure>
+      )}
       <h1 lang={entry.data.language}>{entry.data.name}</h1>
       <p class="metadata">
         {t('feastDay')}: {dateStr} · {t(`category.${entry.data.category}` as UIKey)}
@@ -69,6 +77,24 @@ const jsonld = {
     border-bottom: 1px solid var(--color-border);
   }
   .saint-header h1 { margin-top: 0; }
+  .saint-icon {
+    margin: 0 0 1.5rem;
+    text-align: center;
+  }
+  .saint-icon img {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--color-border);
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .saint-icon figcaption {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--color-muted);
+    margin-top: 0.5rem;
+  }
   .hymn { margin-top: 2rem; }
   .hymn h4 { margin-bottom: 0.5rem; }
 </style>

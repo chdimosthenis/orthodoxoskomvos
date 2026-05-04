@@ -6,11 +6,12 @@ interface Props {
   slug: string;
   name: string;
   feastDay: string;
-  category: 'martyr' | 'monastic' | 'hierarch' | 'apostle' | 'other';
+  category: 'martyr' | 'monastic' | 'hierarch' | 'apostle' | 'prophet' | 'other';
   language: 'el' | 'en';
+  iconUrl?: string;
 }
 
-const { slug, name, feastDay, category, language } = Astro.props;
+const { slug, name, feastDay, category, language, iconUrl } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
@@ -20,16 +21,25 @@ const dateStr = dt.toLocaleDateString(lang === 'el' ? 'el-GR' : 'en-GB', { day: 
 ---
 
 <article class="card">
-  <h3>
-    <a href={getLocalizedPath(`/saints/${slug}`, lang)} lang={language}>{name}</a>
-  </h3>
-  <p class="metadata">
-    {t('feastDay')}: {dateStr} · {t(`category.${category}` as UIKey)}
-  </p>
+  {iconUrl && (
+    <a class="thumb-link" href={getLocalizedPath(`/saints/${slug}`, lang)} aria-hidden="true" tabindex="-1">
+      <img class="thumb" src={iconUrl} alt="" loading="lazy" decoding="async" />
+    </a>
+  )}
+  <div class="card-body">
+    <h3>
+      <a href={getLocalizedPath(`/saints/${slug}`, lang)} lang={language}>{name}</a>
+    </h3>
+    <p class="metadata">
+      {t('feastDay')}: {dateStr} · {t(`category.${category}` as UIKey)}
+    </p>
+  </div>
 </article>
 
 <style>
   .card {
+    display: flex;
+    gap: 1rem;
     padding-bottom: 1.25rem;
     border-bottom: 1px solid var(--color-border);
   }
@@ -37,15 +47,28 @@ const dateStr = dt.toLocaleDateString(lang === 'el' ? 'el-GR' : 'en-GB', { day: 
     border-bottom: none;
     padding-bottom: 0;
   }
-  .card h3 {
+  .thumb-link {
+    flex-shrink: 0;
+    border-bottom: none;
+  }
+  .thumb {
+    display: block;
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border: 1px solid var(--color-border);
+    border-radius: 2px;
+  }
+  .card-body { flex: 1; min-width: 0; }
+  .card-body h3 {
     margin: 0 0 0.35rem;
     font-size: 1.2rem;
   }
-  .card h3 a {
+  .card-body h3 a {
     color: var(--color-text);
     border-bottom: none;
   }
-  .card h3 a:hover {
+  .card-body h3 a:hover {
     color: var(--color-accent);
   }
 </style>

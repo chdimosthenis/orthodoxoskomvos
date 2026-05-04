@@ -22,10 +22,17 @@ const todays = (await getCollection('saints'))
     <ul class="todays-list">
       {todays.map(s => (
         <li>
-          <h3>
-            <a href={getLocalizedPath(`/saints/${s.id}`, lang)} lang={s.data.language}>{s.data.name}</a>
-          </h3>
-          <p class="muted" lang={s.data.language}>{s.data.life}</p>
+          {s.data.iconUrl && (
+            <a class="todays-icon-link" href={getLocalizedPath(`/saints/${s.id}`, lang)} aria-hidden="true" tabindex="-1">
+              <img class="todays-icon" src={s.data.iconUrl} alt="" loading="eager" decoding="async" />
+            </a>
+          )}
+          <div class="todays-text">
+            <h3>
+              <a href={getLocalizedPath(`/saints/${s.id}`, lang)} lang={s.data.language}>{s.data.name}</a>
+            </h3>
+            <p class="muted" lang={s.data.language}>{s.data.life}</p>
+          </div>
         </li>
       ))}
     </ul>
@@ -52,18 +59,37 @@ const todays = (await getCollection('saints'))
     display: grid;
     gap: 1.25rem;
   }
-  .todays-list h3 {
+  .todays-list li {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+  }
+  .todays-icon-link {
+    flex-shrink: 0;
+    border-bottom: none;
+  }
+  .todays-icon {
+    display: block;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border: 1px solid var(--color-border);
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .todays-text { flex: 1; min-width: 0; }
+  .todays-text h3 {
     margin: 0 0 0.35rem;
     font-size: 1.2rem;
   }
-  .todays-list h3 a {
+  .todays-text h3 a {
     color: var(--color-text);
     border-bottom: none;
   }
-  .todays-list h3 a:hover {
+  .todays-text h3 a:hover {
     color: var(--color-accent);
   }
-  .todays-list p {
+  .todays-text p {
     margin: 0;
   }
 </style>

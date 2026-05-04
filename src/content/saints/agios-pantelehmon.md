@@ -1,9 +1,12 @@
 ---
 name: Άγιος Παντελεήμων ο Ιαματικός
+wikipediaTitle: Saint Pantaleon
 feastDay: 07-27
 category: martyr
 life: Ιατρός μάρτυρας από τη Νικομήδεια· προστάτης των ιατρών (~275–305).
 language: el
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/d/d9/St_Panteleimon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: AnonymousUnknown author · Wikimedia Commons · Public domain
 ---
 
 Γεννήθηκε στη Νικομήδεια από εθνικό πατέρα και Χριστιανή μητέρα στα τέλη του 3ου αιώνα. Σπούδασε ιατρική κοντά στον φημισμένο Ευφρόσυνο και κατηχήθηκε από τον πρεσβύτερο Ερμόλαο. Όταν ένα παιδί που το είχε δαγκώσει έχιδνα αναστήθηκε με τη χάρη του Χριστού, βαπτίσθηκε και αφιέρωσε τη ζωή του στη δωρεάν θεραπεία των πασχόντων. Στους διωγμούς του Διοκλητιανού μαρτύρησε με αποκεφαλισμό περί το 305. Το όνομα «Παντελεήμων» — που του δόθηκε στο μαρτύριο — σημαίνει «ολόκληρος έλεος». Είναι ο προστάτης των ιατρών και των πασχόντων.

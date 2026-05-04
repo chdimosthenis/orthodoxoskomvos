@@ -35,11 +35,17 @@ const saints = defineCollection({
   schema: z.object({
     name: z.string(),
     feastDay: z.string().regex(feastDayPattern),
-    category: z.enum(['martyr', 'monastic', 'hierarch', 'apostle', 'other']),
+    category: z.enum(['martyr', 'monastic', 'hierarch', 'apostle', 'prophet', 'other']),
     tropar: z.string().optional(),
     kontak: z.string().optional(),
     life: z.string(),
     language: z.enum(['el', 'en']),
+    /** Wikimedia Commons URL of a representative icon. */
+    iconUrl: z.string().url().optional(),
+    /** Plain-text attribution e.g. "Wikimedia Commons · Public domain". */
+    iconAttribution: z.string().optional(),
+    /** Wikipedia article slug used by scripts/fetch_icon.py to refresh iconUrl. */
+    wikipediaTitle: z.string().optional(),
   }),
 });
 

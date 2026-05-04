@@ -1,0 +1,7 @@
+requests>=2.31
+beautifulsoup4>=4.12
+trafilatura>=1.12
+markdownify>=0.14
+python-frontmatter>=1.1
+pyyaml>=6.0
+python-slugify>=8.0

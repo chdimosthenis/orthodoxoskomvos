@@ -22,3 +22,10 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Python (content scraping pipeline)
+scripts/venv/
+scripts/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo

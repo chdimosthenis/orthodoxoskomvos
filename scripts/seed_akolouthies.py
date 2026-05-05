@@ -107,6 +107,9 @@ ENTRIES: list[dict[str, str]] = [
      "type": "akolouthia", "path": "Euch/Funeral.html"},
     {"slug": "mnimosyno-trisagion", "title": "Τρισάγιον (Μνημόσυνον)",
      "type": "akolouthia", "path": "Euch/Trisagion.html"},
+    # --- Δεσποτικαὶ Ἑορταί (Μηναῖα) ---
+    {"slug": "megas-agiasmos", "title": "Μέγας Ἁγιασμὸς τῶν Θεοφανείων",
+     "type": "akolouthia", "path": "Jan/Jan06.html"},
 ]
 
 

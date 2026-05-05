@@ -76,9 +76,20 @@ _DATE_TITLE_RE = re.compile(
 # cases where the link text is a single capitalised word AND the surrounding
 # li text suggests a location (the saint's name appears separately).
 _NON_SAINT_KEYWORDS = (
-    "(town)", "(city)", "(diocese)", "(region)",
+    "(town)", "(city)", "(diocese)", "(region)", "(province)",
+    "(river)", "(mountain)", "(country)", "(municipality)",
     "(disambiguation)",
+    " abbey", " monastery", " cathedral", " convent", " basilica",
+    "degrees of eastern orthodox monasticism",
 )
+
+# Page titles that are unambiguously historical regions / city-states with
+# the same name as the article — never a person.
+_NON_SAINT_TITLES = frozenset({
+    "epirus", "lycaonia", "livadeia", "philadelphia", "alaşehir",
+    "thessalonica", "antioch", "byzantium", "rome", "constantinople",
+    "athens", "corinth", "ephesus",
+})
 
 # Words that, when present in a list item's text, give us reasonable confidence
 # that the entry is about a person who is venerated as a saint. If none of
@@ -210,6 +221,8 @@ def parse_commemorations(html: str) -> list[dict]:
                 if _DATE_TITLE_RE.match(title):
                     continue
                 if any(kw in title.lower() for kw in _NON_SAINT_KEYWORDS):
+                    continue
+                if title.lower() in _NON_SAINT_TITLES:
                     continue
                 a = candidate
                 break

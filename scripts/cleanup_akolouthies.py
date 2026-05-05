@@ -38,6 +38,8 @@ GOA_SLUGS = {
     # Ευχολόγιον
     "mikros-agiasmos", "vaptisma", "stefanoma-gamou",
     "nekrosimos-akolouthia", "mnimosyno-trisagion",
+    # Δεσποτικαὶ Ἑορταί
+    "megas-agiasmos",
 }
 
 # Audio link variants — any [text](relative/path.mp3) pattern.

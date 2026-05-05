@@ -78,17 +78,38 @@ _DATE_TITLE_RE = re.compile(
 _NON_SAINT_KEYWORDS = (
     "(town)", "(city)", "(diocese)", "(region)", "(province)",
     "(river)", "(mountain)", "(country)", "(municipality)",
-    "(disambiguation)",
+    "(ancient town)", "(disambiguation)",
     " abbey", " monastery", " cathedral", " convent", " basilica",
+    "ancient diocese", "diocese of", "roman catholic",
+    "monastic community", "patriarch of",
+    "list of", "old style",
     "degrees of eastern orthodox monasticism",
+    "fool-for-christ", "fool for christ",
+    "great schema",
+    "latin church",
 )
 
-# Page titles that are unambiguously historical regions / city-states with
-# the same name as the article — never a person.
+# Page titles that are unambiguously regions / cities / monasteries / concepts —
+# never a person, even if Wikipedia links to them from an EO-liturgics page.
 _NON_SAINT_TITLES = frozenset({
+    # Greek / Mediterranean classical regions
     "epirus", "lycaonia", "livadeia", "philadelphia", "alaşehir",
     "thessalonica", "antioch", "byzantium", "rome", "constantinople",
-    "athens", "corinth", "ephesus",
+    "athens", "corinth", "ephesus", "kythera", "pelion", "serres",
+    "thessaly", "thebaid", "tekoa", "tekoa (ancient town)",
+    "troodos mountains", "egypt", "crimea",
+    # Russian/Ukrainian/Caucasian cities
+    "astrakhan", "cherkasy", "kharkiv", "kharkov", "kildimo",
+    "stavropol", "suzdal", "vologda", "volokolamsk",
+    "trubar", "trubar, bihać",
+    # Monasteries / lavras / dioceses
+    "kiev pechersk lavra", "troitse-sergiyeva lavra",
+    "monastic community of mount athos", "simonopetra",
+    "bishop of ostia",
+    # Concepts / titles that are not person names
+    "confessor", "wonderworker", "synaxis", "recluse",
+    "schema", "great schema", "fool-for-christ",
+    "latin church",
 })
 
 # Words that, when present in a list item's text, give us reasonable confidence

@@ -45,6 +45,63 @@ WIKIPEDIA_HOSTS = [
 # How wide we want the rendered Commons thumbnail (px). Plenty for a 280px display.
 THUMB_WIDTH = 600
 
+# ---- Byzantine-style icon classification (filename-based heuristics) -------
+#
+# We can't tell with certainty whether a Wikimedia Commons file shows a
+# Byzantine icon or a Western painting without OCR/image analysis. But the
+# filename itself is usually descriptive enough for high-confidence calls.
+# Use these to flag suspect entries via `--audit`.
+
+_ICON_ALLOW_KEYWORDS = (
+    "icon", "ikon", "byzantine", "sinai", "athos", "novgorod",
+    "pskov", "rublev", "theophanes_the_greek", "cretan_school",
+    "macedonian_school", "fresco", "mosaic", "menaion",
+    "imitation_of_byzantine", "russian_orthodox",
+    "agia_", "agios_", "pantocrator", "panagia",
+    "13th_century", "14th_century", "15th_century",
+    "16th_century", "17th_century",  # most clearly-Byzantine icons
+)
+
+_ICON_DENY_KEYWORDS = (
+    "raphael", "vasnetsov", "repin", "caravaggio", "rembrandt",
+    "rubens", "guercino", "ceragioli", "cermak", "čermák",
+    "tiepolo", "veronese", "tintoretto", "el_greco",
+    "renaissance", "baroque", "rococo", "neoclass",
+    "_painting_by_", "oil_on_canvas", "oil_on_panel",
+    "by_giovanni_", "by_carlo_", "by_paolo_", "by_pietro_",
+    "by_francesco_", "by_titian", "by_botticelli",
+)
+
+
+def classify_icon(filename: str) -> str:
+    """Return one of: 'byzantine', 'western', 'uncertain'.
+
+    Pure filename heuristic — won't catch every case, but flags the obvious
+    "Western painting that crept in" issue we see when Wikipedia's English
+    infobox gives us a Renaissance canvas instead of an Orthodox icon.
+    """
+    if not filename:
+        return "uncertain"
+    f = filename.lower().replace(" ", "_").replace("%20", "_")
+    if any(k in f for k in _ICON_DENY_KEYWORDS):
+        return "western"
+    if any(k in f for k in _ICON_ALLOW_KEYWORDS):
+        return "byzantine"
+    return "uncertain"
+
+
+def filename_from_url(url: str) -> str:
+    """Extract decoded filename from a Wikimedia Commons thumbnail URL."""
+    if not url:
+        return ""
+    # Wikimedia thumbnail URLs end with '/<width>px-<filename>' OR
+    # plain Commons URLs with '/<filename>' as the last segment.
+    import urllib.parse
+    last = url.rstrip("/").rsplit("/", 1)[-1]
+    if "-" in last and last[: last.find("-")].rstrip("px").isdigit():
+        last = last.split("-", 1)[1]
+    return urllib.parse.unquote(last)
+
 
 def get_main_image(wikipedia_title: str, host: str) -> str | None:
     """Get the lead image filename for a Wikipedia article on a given host."""
@@ -272,11 +329,56 @@ def update_all(*, force: bool, dry_run: bool) -> None:
     )
 
 
+def audit_all() -> None:
+    """Classify the iconUrl of every saint file. Prints a flagged report.
+
+    No network calls — pure filename-based classification.
+    """
+    saints_dir = CONTENT_ROOT / "saints"
+    files = sorted(saints_dir.glob("*.md"))
+    log(f"Auditing {len(files)} saint files in {saints_dir}")
+
+    counts = {"byzantine": 0, "western": 0, "uncertain": 0, "missing": 0}
+    flagged: list[tuple[str, str, str]] = []  # (slug, classification, filename)
+
+    for path in files:
+        try:
+            fm, _ = read_md(path)
+        except Exception as e:
+            log(f"  {path.name}: parse error — {e}", level="error")
+            continue
+        url = fm.get("iconUrl") or ""
+        if not url:
+            counts["missing"] += 1
+            continue
+        fn = filename_from_url(url)
+        cls = classify_icon(fn)
+        counts[cls] += 1
+        if cls != "byzantine":
+            flagged.append((path.stem, cls, fn))
+
+    log("")
+    log(f"summary: byzantine={counts['byzantine']}, "
+        f"uncertain={counts['uncertain']}, "
+        f"western={counts['western']}, "
+        f"missing-iconUrl={counts['missing']}",
+        level="ok")
+
+    if flagged:
+        log("")
+        log("flagged entries (review with `fix-icon` skill if needed):")
+        for slug, cls, fn in flagged:
+            tag = "✗" if cls == "western" else "?"
+            log(f"  {tag} [{cls:9}] {slug:36} → {fn}")
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description="Fetch saint icons from Wikipedia/Wikimedia Commons.")
     g = p.add_mutually_exclusive_group(required=True)
     g.add_argument("--title", help="Wikipedia article title (single lookup, prints to stdout)")
     g.add_argument("--update-all", action="store_true", help="Iterate over saints/*.md")
+    g.add_argument("--audit", action="store_true",
+                   help="Classify existing iconUrls — flag non-Byzantine entries (no network)")
     p.add_argument("--force", action="store_true", help="Overwrite existing iconUrl")
     p.add_argument("--dry-run", action="store_true", help="Preview without writing")
     args = p.parse_args()
@@ -293,6 +395,9 @@ def main() -> None:
             log(f" license: {info['license']}")
             log(f"  source: {info['descriptionurl']}")
             log(f"  attribution: {format_attribution(info)}")
+            log(f"  byzantine?: {classify_icon(info['filename'])}")
+        elif args.audit:
+            audit_all()
         else:
             update_all(force=args.force, dry_run=args.dry_run)
     except requests.RequestException as e:

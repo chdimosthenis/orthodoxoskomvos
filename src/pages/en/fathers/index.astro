@@ -7,7 +7,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 const fathers = (await getCollection('fathers'))
-  .filter(f => f.data.language === lang)
+  .filter(f => f.data.language === lang && !f.data.draft)
   .sort((a, b) => a.data.century - b.data.century);
 ---
 

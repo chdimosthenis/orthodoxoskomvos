@@ -27,6 +27,12 @@ const fathers = defineCollection({
     feastDay: z.string().regex(feastDayPattern).optional(),
     summary: z.string(),
     language: z.enum(['el', 'en']),
+    /** External source URL — set by bot-seeded entries. */
+    sourceUrl: z.string().url().optional(),
+    /** License of imported content. */
+    license: z.enum(['public-domain', 'CC-BY', 'CC-BY-SA', 'original']).optional(),
+    /** `true` for auto-seeded entries that need human review. */
+    draft: z.boolean().optional().default(false),
   }),
 });
 

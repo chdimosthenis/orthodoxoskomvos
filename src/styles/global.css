@@ -2,6 +2,7 @@
 
 :root {
   --color-burgundy: #6b1b2c;
+  --color-byzantine-purple: #4a1e50;
   --color-gold: #b08d57;
   --color-parchment: #faf6ed;
   --color-ink: #1a1410;
@@ -10,6 +11,7 @@
   --color-bg: var(--color-parchment);
   --color-text: var(--color-ink);
   --color-accent: var(--color-burgundy);
+  --color-heading: var(--color-byzantine-purple);
   --color-border: rgba(26, 20, 16, 0.12);
   --color-attribution-bg: rgba(176, 141, 87, 0.07);
 
@@ -25,6 +27,7 @@
     --color-text: #ebe2cf;
     --color-muted: #9a8e80;
     --color-accent: #c89863;
+    --color-heading: #d4b890;
     --color-border: rgba(235, 226, 207, 0.14);
     --color-attribution-bg: rgba(176, 141, 87, 0.08);
   }
@@ -68,7 +71,7 @@ h1, h2, h3, h4 {
   letter-spacing: -0.005em;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  color: var(--color-text);
+  color: var(--color-heading);
 }
 
 h1 { font-size: 2.4rem; margin-top: 0; }

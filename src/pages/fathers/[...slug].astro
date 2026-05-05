@@ -7,7 +7,7 @@ import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 export async function getStaticPaths() {
   const fathers = await getCollection('fathers');
   return fathers
-    .filter(f => f.data.language === 'el')
+    .filter(f => f.data.language === 'el' && !f.data.draft)
     .map(f => ({ params: { slug: f.id }, props: { entry: f } }));
 }
 

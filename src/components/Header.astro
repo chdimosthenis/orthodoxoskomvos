@@ -22,7 +22,7 @@ const altUrl = getAlternateUrl(Astro.url, altLang);
 <header class="site-header">
   <div class="header-inner">
     <a href={getLocalizedPath('/', lang)} class="brand" aria-label={t('site.title')}>
-      <span class="brand-mark" aria-hidden="true">☧</span>
+      <span class="brand-mark" aria-hidden="true">☦</span>
       <span class="brand-text">{t('site.title')}</span>
     </a>
     <nav aria-label="primary">
@@ -66,8 +66,9 @@ const altUrl = getAlternateUrl(Astro.url, altLang);
     letter-spacing: 0.005em;
   }
   .brand-mark {
-    color: var(--color-accent);
-    font-size: 1.5rem;
+    color: var(--color-gold);
+    font-size: 1.6rem;
+    line-height: 1;
   }
   nav {
     flex: 1;

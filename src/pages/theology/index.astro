@@ -1,0 +1,92 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { getLangFromUrl, useTranslations, getLocalizedPath } from '../../i18n/utils';
+import type { UIKey } from '../../i18n/ui';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+// Pull every tagged article (both EL and EN). Drafts excluded.
+const articles = (await getCollection('articles'))
+  .filter(a => !a.data.draft && a.data.tags && a.data.tags.length > 0);
+
+// Cluster definitions — mirrors seed_theology.py groupings.
+const clusters = [
+  { id: 'spiritual',   primaryTag: 'spiritual-life', titleKey: 'theology.section.spiritual'  },
+  { id: 'hesychasm',   primaryTag: 'hesychasm',      titleKey: 'theology.section.hesychasm'  },
+  { id: 'philokalia',  primaryTag: 'philokalia',     titleKey: 'theology.section.philokalia' },
+  { id: 'theology',    primaryTag: 'theology',       titleKey: 'theology.section.theology'   },
+  { id: 'liturgical',  primaryTag: 'liturgical',     titleKey: 'theology.section.liturgical' },
+  { id: 'iconography', primaryTag: 'iconography',    titleKey: 'theology.section.iconography'},
+  { id: 'sacraments',  primaryTag: 'sacraments',     titleKey: 'theology.section.sacraments' },
+  { id: 'clergy',      primaryTag: 'clergy',         titleKey: 'theology.section.clergy'     },
+  { id: 'ecclesiology',primaryTag: 'ecclesiology',   titleKey: 'theology.section.ecclesiology'},
+  { id: 'monasticism', primaryTag: 'monasticism',    titleKey: 'theology.section.monasticism'},
+  { id: 'eschatology', primaryTag: 'eschatology',    titleKey: 'theology.section.eschatology'},
+] as const;
+
+// Track articles already shown so we don't duplicate across clusters.
+const shown = new Set<string>();
+const sections = clusters
+  .map(c => {
+    const items = articles
+      .filter(a => a.data.tags!.includes(c.primaryTag) && !shown.has(a.id))
+      .sort((a, b) => a.data.title.localeCompare(b.data.title, lang));
+    items.forEach(a => shown.add(a.id));
+    return { ...c, items };
+  })
+  .filter(s => s.items.length > 0);
+
+const localeTag = lang === 'el' ? 'el-GR' : 'en-GB';
+---
+
+<BaseLayout title={t('theology.title')}>
+  <h1>{t('theology.title')}</h1>
+  <p class="muted">{t('theology.intro')}</p>
+
+  {sections.length === 0 ? (
+    <p class="muted">{t('no.entries')}</p>
+  ) : sections.map(section => (
+    <section class="theology-section" id={section.id}>
+      <h2>{t(section.titleKey as UIKey)}</h2>
+      <ul class="card-list">
+        {section.items.map(a => (
+          <li class="theology-card">
+            <h3>
+              <a href={getLocalizedPath(`/articles/${a.id}`, lang)} lang={a.data.language}>{a.data.title}</a>
+            </h3>
+            <p class="metadata">
+              {a.data.language === 'el' ? 'Ἑλληνικά' : 'English'}
+              {' · '}
+              <time datetime={a.data.pubDate.toISOString()}>
+                {a.data.pubDate.toLocaleDateString(localeTag, { year: 'numeric', month: 'long' })}
+              </time>
+            </p>
+            {a.data.description && a.data.description !== a.data.title && (
+              <p class="muted">{a.data.description}</p>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>
+
+<style>
+  .theology-section { margin-top: 2.5rem; }
+  .theology-section h2 {
+    margin-top: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .theology-card {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .theology-card:last-child { border-bottom: none; padding-bottom: 0; }
+  .theology-card h3 { margin: 0 0 0.35rem; font-size: 1.2rem; }
+  .theology-card h3 a { color: var(--color-text); border-bottom: none; }
+  .theology-card h3 a:hover { color: var(--color-accent); }
+  .theology-card p { margin: 0.25rem 0 0; }
+</style>

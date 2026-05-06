@@ -148,6 +148,15 @@ see the **recover-from-bot-push** skill.
 |---|---|---|---|
 | `daily-saints.yml` | 03:00 UTC daily | `orthodox-bot` | `src/content/saints/*.md` |
 | `news.yml` | every 6h at :05 | `orthodox-news-bot` | `src/data/news.json` |
+| `weekly-article.yml` | manual only (cron commented) | `orthodox-article-bot` | new branch `agentic-article/<date>` + PR (not `main`) |
+
+The weekly-article workflow uses the Anthropic API. To activate:
+1. Add `ANTHROPIC_API_KEY` to repo Secrets.
+2. Run once via "Run workflow" to verify output quality.
+3. Uncomment the schedule block in `.github/workflows/weekly-article.yml`.
+
+Drafts go to a PR, NOT directly to `main` — review removes `draft: true`
+and merges when the article is editorially ready.
 
 Manual trigger any workflow:
 <https://github.com/chdimosthenis/orthodox-site/actions>

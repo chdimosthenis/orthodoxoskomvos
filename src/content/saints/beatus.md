@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Beatus_of_Lungern
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Saints_Beatus_and_Achatus_of_Thun_-_Orthodox_Icon.jpg/960px-Saints_Beatus_and_Achatus_of_Thun_-_Orthodox_Icon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Unknown author · Wikimedia Commons · CC BY 4.0
 ---
 
 Saint Beatus , Apostle of Switzerland (2nd century)

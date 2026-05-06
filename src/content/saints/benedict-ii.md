@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Pope_Benedict_II
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/3/3a/BenedictII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Saint Benedict II , Pope of Rome (685)

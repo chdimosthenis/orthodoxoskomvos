@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Itta_of_Metz
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/7/77/The_Prioress%27s_Tale%2C_painting_by_Edward_Burne-Jones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Edward Burne-Jones · Wikimedia Commons · Public domain
 ---
 
 Saint Iduberga ( Itta ), foundress of Nivelles Abbey , Belgium (652)

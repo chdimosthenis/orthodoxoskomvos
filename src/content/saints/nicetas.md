@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Nicetas_of_Novgorod
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/3/38/Nikita_of_Novgorod.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: AnonymousUnknown author · Wikimedia Commons · Public domain
 ---
 
 Saint Nicetas , Bishop of Novgorod and recluse of the Kiev Caves (1108)

@@ -9,6 +9,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Genadio_of_Astorga
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/1/19/San_Genadio_de_Astorga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Ana María Martínez · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Saint Vincent, Abbot of St Peter de Montes in Spain ( es ) , a disciple and successor of St. Gennadius of Astorga (c. 950)

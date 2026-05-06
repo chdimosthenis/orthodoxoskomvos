@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Pancras_of_Rome
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Barcelona_Cathedral_Interior_-_Statue_of_Saint_Pancrace_of_Rome.jpg/960px-Barcelona_Cathedral_Interior_-_Statue_of_Saint_Pancrace_of_Rome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Didier Descouens · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Martyr Pancratius of Rome (304)

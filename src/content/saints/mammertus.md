@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Mamertus
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mammertus.JPG/960px-Mammertus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Uncertain · Wikimedia Commons · Public domain
 ---
 
 Saint Mammertus , Archbishop of Vienne (475)

@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Leontius_II_of_Jerusalem
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/9/9b/Saint_Leontios_15th_c_icon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: unknown painter of Cretan school · Wikimedia Commons · Public domain
 ---
 
 Saint Leontius II of Jerusalem , Patriarch of Jerusalem (1190)

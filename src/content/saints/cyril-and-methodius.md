@@ -9,6 +9,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Saints_Cyril_and_Methodius
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/c/cf/Cyril_Methodius25K.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Own work · Wikimedia Commons · Public domain
 ---
 
 Saints Cyril and Methodius , Equal-to-the-Apostles and Enlighteners of the Slavs (869, 885) ( see also: July 17 )

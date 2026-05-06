@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Flavia_Domitilla_(saint)
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/c/cf/Heliga_Domitilla.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · CC0
 ---
 
 Saint Domitilla the martyr (c. 81-96)

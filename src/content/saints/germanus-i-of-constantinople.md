@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Germanus_I_of_Constantinople
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/0/0e/Patriarch_Germanus_I_of_Constantinople.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: AnonymousUnknown author · Wikimedia Commons · Public domain
 ---
 
 Patriarch Germanus I of Constantinople (740)

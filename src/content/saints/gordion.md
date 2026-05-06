@@ -8,6 +8,9 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Gordianus_and_Epimachus
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/e/ec/Nuremberg_chronicles_f_132v_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: 'Michel Wolgemut, Wilhelm Pleydenwurff (Text: Hartmann Schedel) · Wikimedia Commons ·
+  Public domain'
 ---
 
 Martyr Gordion , at Rome (362)

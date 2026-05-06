@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Boniface_of_Tarsus
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Saint_Bonifatius_by_Dm.Korin_%281887_%3F_priv.coll%29.jpg/960px-Saint_Bonifatius_by_Dm.Korin_%281887_%3F_priv.coll%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: DMITRY KORIN · Wikimedia Commons · Public domain
 ---
 
 Saint Boniface of Tarsus , martyr (307)

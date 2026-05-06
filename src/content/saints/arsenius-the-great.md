@@ -8,6 +8,8 @@ language: en
 sourceUrl: https://en.wikipedia.org/wiki/Arsenius_the_Great
 license: CC-BY-SA
 draft: true
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/7/79/Arsenius_the_Great.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: AnonymousUnknown author · Wikimedia Commons · Public domain
 ---
 
 Saint Arsenius the Great , of Scetis (448)

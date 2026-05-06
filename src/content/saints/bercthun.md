@@ -8,6 +8,8 @@ life: Saint Bercthun ( Bertin ), a disciple of St John of Beverley and first Abb
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Bercthun
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/e/ea/Beverley_Minster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Philip Pankhurst · Wikimedia Commons · CC BY-SA 2.0
 ---
 
 Saint Bercthun ( Bertin ), a disciple of St John of Beverley and first Abbot of Beverley in England (733)

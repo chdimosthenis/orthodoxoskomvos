@@ -7,6 +7,8 @@ life: Saint Desiderius of Langres ( Didier II ), Bishop of Langres in Gaul (407)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Bishop_of_Langres
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kathedrale_von_Langres.jpg/960px-Kathedrale_von_Langres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Rensi at German Wikipedia · Wikimedia Commons · Public domain
 ---
 
 Saint Desiderius of Langres ( Didier II ), Bishop of Langres in Gaul (407)

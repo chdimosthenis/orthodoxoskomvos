@@ -7,6 +7,8 @@ life: Saint Callistratus of Georgia , Catholicos-Patriarch of All Georgia (1952)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Callistratus_of_Georgia
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/5_tsintsadze_kalistrate.jpg/960px-5_tsintsadze_kalistrate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Saint Callistratus of Georgia , Catholicos-Patriarch of All Georgia (1952)

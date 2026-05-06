@@ -8,6 +8,8 @@ life: Saint Hilary, Bishop of Pavia , one of the bishops in the north of Italy w
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Bishop_of_Pavia
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/e/ec/Duomo_Pavia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Goldmund100 · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Saint Hilary, Bishop of Pavia , one of the bishops in the north of Italy who fought against Arianism (376)

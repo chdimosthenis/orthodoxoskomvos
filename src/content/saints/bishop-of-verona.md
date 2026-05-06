@@ -7,6 +7,8 @@ life: Saint Maximus of Verona, Bishop of Verona in Italy (6th century)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Bishop_of_Verona
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Duomo_%28Verona%29_-_Facades.jpg/960px-Duomo_%28Verona%29_-_Facades.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Didier Descouens · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Saint Maximus of Verona, Bishop of Verona in Italy (6th century)

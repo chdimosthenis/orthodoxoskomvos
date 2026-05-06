@@ -7,6 +7,8 @@ life: Hieromartyr Felix, Bishop of Spoleto , in Umbria (304)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Bishop_of_Spoleto
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/1/1f/0960SpoletoDuomo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Geobia · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Hieromartyr Felix, Bishop of Spoleto , in Umbria (304)

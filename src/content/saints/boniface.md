@@ -8,6 +8,8 @@ life: 'Hieromartyr Boniface (Wynfrith), Archbishop of Mainz and Enlightener of G
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Saint_Boniface
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/1/16/Saint_Boniface_by_Cornelis_Bloemaert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Cornelis Bloemaert · Wikimedia Commons · Public domain
 ---
 
 Hieromartyr Boniface (Wynfrith), Archbishop of Mainz and Enlightener of Germany, and those martyred with him (754):

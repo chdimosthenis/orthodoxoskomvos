@@ -7,6 +7,8 @@ life: Venerable Bodfan ( Bobouan ), patron saint of Abern in Gwynedd in Wales (7
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Bodfan
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/e/e5/Bodfan_Standing_Stone_-_geograph.org.uk_-_1087859.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Michael Murray · Wikimedia Commons · CC BY-SA 2.0
 ---
 
 Venerable Bodfan ( Bobouan ), patron saint of Abern in Gwynedd in Wales (7th century)

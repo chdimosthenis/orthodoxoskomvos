@@ -7,6 +7,8 @@ life: Saint Brendan the Navigator, abbot of Clonfert (c. 577)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Brendan_the_Navigator
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/e/e8/Saint_brendan_german_manuscript.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown mediaeval scribe. · Wikimedia Commons · Public domain
 ---
 
 Saint Brendan the Navigator, abbot of Clonfert (c. 577)

@@ -7,6 +7,8 @@ life: Saint Ageranus ( Ayran, Ayrman ) of Beze , a monk at Bèze in France, mart
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Bèze
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Village_Beze.JPG/960px-Village_Beze.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Christophe.Finot · Wikimedia Commons · CC BY-SA 2.5
 ---
 
 Saint Ageranus ( Ayran, Ayrman ) of Beze , a monk at Bèze in France, martyred by the Vikings (888)

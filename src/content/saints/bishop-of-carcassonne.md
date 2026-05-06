@@ -7,6 +7,8 @@ life: Saint Hilary ( Hilaire ), Bishop of Carcassonne in France (5th century))
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Bishop_of_Carcassonne
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Carcassonne_-_Cath%C3%A9drale_St-Michel.jpg/960px-Carcassonne_-_Cath%C3%A9drale_St-Michel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Didier Descouens · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Saint Hilary ( Hilaire ), Bishop of Carcassonne in France (5th century))

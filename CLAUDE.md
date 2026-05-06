@@ -18,6 +18,26 @@ The user (Dimos Chatzinikolaou, GitHub: `chdimosthenis`) is Greek-speaking.
 **Respond in Greek by default.** Code, commit messages, and inline comments
 in English.
 
+## Greek-only content from 2026-05-06 onward
+
+Per explicit user instruction: **do NOT add new English content or extend
+the English version of the site.** Existing `/en/` pages stay; do not
+delete them. New work means:
+
+- New articles, hymns, prayers, eortologio entries: `language: el` only.
+- New saint translations / `add-saint` runs: target Greek (`language: el`).
+- New Astro pages: build the Greek route (e.g. `/eortologio`); do not
+  create a sibling `/en/<route>`. Conditionally hide the nav item from
+  EN visitors (see Header.astro `greekOnly` pattern).
+- The `translate-entry` skill stays available but is now Greek-only:
+  use it to translate English bot-seeded saint drafts → Greek, never
+  the other direction.
+- The `i18n/ui.ts` translation table: add new keys to `el` only; rely on
+  the `useTranslations` fallback to defaultLang for any EN call sites.
+
+This narrows the surface: stop reasoning about bilingual symmetry, treat
+EN as legacy frozen state.
+
 ## Folder map
 
 ```

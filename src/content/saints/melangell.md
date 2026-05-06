@@ -7,6 +7,8 @@ life: Venerable Melangell of Wales, Abbess (590)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Melangell
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/3/34/Saint_Melangell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: John Ingleby · Wikimedia Commons · Public domain
 ---
 
 Venerable Melangell of Wales, Abbess (590)

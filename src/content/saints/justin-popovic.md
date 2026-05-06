@@ -7,6 +7,9 @@ life: Saint Justin (Popovic) , Archimandrite of Ćelije Monastery in Serbia (197
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Justin_Popović
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/d/d8/JustinPopovic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: The original uploader was Ninam at English Wikipedia. · Wikimedia Commons · CC BY-SA
+  3.0
 ---
 
 Saint Justin (Popovic) , Archimandrite of Ćelije Monastery in Serbia (1979)

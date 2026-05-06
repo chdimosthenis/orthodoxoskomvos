@@ -7,6 +7,8 @@ life: Saint Philip I, Metropolitan of Moscow (1473)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Philip_I,_Metropolitan_of_Moscow
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/8/89/Philip_of_Moscow.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Москва, мастерская Ирины Федоровны Годуновой (?) · Wikimedia Commons · Public domain
 ---
 
 Saint Philip I, Metropolitan of Moscow (1473)

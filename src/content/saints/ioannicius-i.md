@@ -7,6 +7,8 @@ life: Saint Ioannicius I , Metropolitan of Peć and Archbishop of Serbia 1272-12
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Joanikije_I
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/7/7e/Joanikije_I%2C_first_patriarch_of_Serbia_-_engraving_%28c._1885%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Saint Ioannicius I , Metropolitan of Peć and Archbishop of Serbia 1272-1276 AD (1279)

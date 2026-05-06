@@ -7,6 +7,8 @@ life: New Martyr Alexander of Thessalonica, the former Dervish , beheaded at Smy
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Dervish
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Indischer_Maler_um_1650_%28II%29_001.jpg/960px-Indischer_Maler_um_1650_%28II%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Indischer Maler um 1650 (II) · Wikimedia Commons · Public domain
 ---
 
 New Martyr Alexander of Thessalonica, the former Dervish , beheaded at Smyrna (1794)

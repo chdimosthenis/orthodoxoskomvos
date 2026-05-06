@@ -7,6 +7,8 @@ life: Saint Nicholas the Pilgrim ( Nicholas Peregrinus ), a Greek Fool-for-Chris
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Nicholas_the_Pilgrim
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/5/58/S.Nicola.Pell.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Tommytrani at Italian Wikipedia · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Saint Nicholas the Pilgrim ( Nicholas Peregrinus ), a Greek Fool-for-Christ , confessor (1094)

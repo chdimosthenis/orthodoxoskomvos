@@ -7,6 +7,8 @@ life: Saint Nicephorus the Confessor , Patriarch of Constantinople (828)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Nikephoros_I_of_Constantinople
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/f/fb/Chludov_Nikephoros_I_of_Constantinople.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Saint Nicephorus the Confessor , Patriarch of Constantinople (828)

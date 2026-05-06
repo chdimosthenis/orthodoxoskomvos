@@ -7,6 +7,8 @@ life: New Martyr Nicholas of Metsovo , at Trikala, whose relics are at Meteora (
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Metsovo
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Metsovo_overview_bgiu.jpg/960px-Metsovo_overview_bgiu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Bogdan Giuşcă · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 New Martyr Nicholas of Metsovo , at Trikala, whose relics are at Meteora (1617)

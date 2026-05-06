@@ -7,6 +7,8 @@ life: Saint John Vladimir , King of Serbia, Martyr, Wonderworker , whose relics 
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Jovan_Vladimir
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/8/86/Jovan_Vladimir%2C_Greek_icon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Saint John Vladimir , King of Serbia, Martyr, Wonderworker , whose relics are at Elbasan (1015)

@@ -7,6 +7,8 @@ life: Hieromartyr Michael "the black-robed", monk of St. Sabbas Monastery (9th c
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Mar_Saba
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Mar_Saba_IMG_1849.JPG/960px-Mar_Saba_IMG_1849.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: deror_avi · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Hieromartyr Michael "the black-robed", monk of St. Sabbas Monastery (9th century)

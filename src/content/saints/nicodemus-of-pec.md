@@ -7,6 +7,8 @@ life: Saint Nicodemus of Pec , Archbishop of Serbia (1324)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Saint_Nikodim_I
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/6/6e/Stefan_Decanski_Coronation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Anastas Jovanović · Wikimedia Commons · Public domain
 ---
 
 Saint Nicodemus of Pec , Archbishop of Serbia (1324)

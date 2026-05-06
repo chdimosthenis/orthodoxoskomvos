@@ -8,6 +8,8 @@ life: Saint Hilary of Galeata ( Hilary of Tuscany ), founder of the monastery ca
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Hilary_of_Galeata
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Galeata_sant_ellero_tomba.jpg/960px-Galeata_sant_ellero_tomba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Icco80 · Wikimedia Commons · Public domain
 ---
 
 Saint Hilary of Galeata ( Hilary of Tuscany ), founder of the monastery called Galeata , later known as Sant'Ilaro ( Sant'Ellero di Galeata ) (558)

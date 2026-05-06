@@ -7,6 +7,8 @@ life: Saint Regintrudis , fourth Abbess of Nonnberg Abbey near Salzburg in Austr
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Regintrud
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Salzburg_St_Peter_Gem%C3%A4lde_Taufe_1.jpg/960px-Salzburg_St_Peter_Gem%C3%A4lde_Taufe_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: 'Photo: Andreas Praefcke · Wikimedia Commons · Public domain'
 ---
 
 Saint Regintrudis , fourth Abbess of Nonnberg Abbey near Salzburg in Austria.

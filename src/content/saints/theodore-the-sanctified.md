@@ -7,6 +7,8 @@ life: Saint Theodore the Sanctified of Tabennisi , disciple of Saint Pachomios t
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Theodorus_of_Tabennese
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Theodore_the_Sanctified.JPG/960px-Theodore_the_Sanctified.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Инфо Отдел УПЦ 1 · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Saint Theodore the Sanctified of Tabennisi , disciple of Saint Pachomios the Great (367)

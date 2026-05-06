@@ -8,6 +8,8 @@ life: 'Venerable Eudoxia of Moscow , in monasticism Euphrosyne, Grand-Duchess of
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Eudoxia_of_Moscow
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/2/28/Eudoxia_of_moscow_reconstruction_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Sergey Nikitin · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Venerable Eudoxia of Moscow , in monasticism Euphrosyne, Grand-Duchess of Moscow (1407) ( see also: July 7 )

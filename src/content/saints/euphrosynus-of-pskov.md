@@ -7,6 +7,8 @@ life: Saint Euphrosynus of Pskov ( Eleazar ), Abbot and Wonderworker (1481)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Euphrosynus_of_Pskov
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/a/a4/Evfrosin_of_Pskov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: anonimus · Wikimedia Commons · Public domain
 ---
 
 Saint Euphrosynus of Pskov ( Eleazar ), Abbot and Wonderworker (1481)

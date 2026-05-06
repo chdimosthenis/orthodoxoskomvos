@@ -8,6 +8,8 @@ life: Saint William of Gellone , built a monastery at Gellone in France, later n
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/William_of_Gellone
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/6/66/Vouet-guillaume-louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Simon Vouet · Wikimedia Commons · Public domain
 ---
 
 Saint William of Gellone , built a monastery at Gellone in France, later named Saint-Guilhem-le-Désert (812)

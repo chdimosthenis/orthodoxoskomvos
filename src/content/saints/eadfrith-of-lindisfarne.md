@@ -8,6 +8,8 @@ life: Saint Eadfrith of Lindisfarne ( Edfrith ), Bishop of Lindisfarne in Englan
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Eadfrith_of_Lindisfarne
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/LindisfarneFol27rIncipitMatt.jpg/960px-LindisfarneFol27rIncipitMatt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Eadfrith of Lindisfarne (presumed) · Wikimedia Commons · Public domain
 ---
 
 Saint Eadfrith of Lindisfarne ( Edfrith ), Bishop of Lindisfarne in England after St Edbert, he illuminated the Lindisfarne Gospels in honour of St Cuthbert (721)

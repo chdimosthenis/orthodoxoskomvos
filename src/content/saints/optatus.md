@@ -7,6 +7,8 @@ life: Saint Optatus , Bishop of Milevum in Numidia (376)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Optatus
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/f/f8/Optat_de_Mileve.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Jacques Callot · Wikimedia Commons · Public domain
 ---
 
 Saint Optatus , Bishop of Milevum in Numidia (376)

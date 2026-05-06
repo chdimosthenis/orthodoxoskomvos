@@ -8,6 +8,8 @@ life: Saint Atto, a monk at Oña in Spain with St. Enneco , who later became Bis
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Oña
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/2014-04-16_Norte_de_Burgos_188_-_O%C3%B1a.jpg/960px-2014-04-16_Norte_de_Burgos_188_-_O%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Luiyo from Madrid, Spain · Wikimedia Commons · CC BY-SA 2.0
 ---
 
 Saint Atto, a monk at Oña in Spain with St. Enneco , who later became Bishop of Oca-Valpuesta (c. 1044)

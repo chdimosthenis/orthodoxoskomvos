@@ -7,6 +7,8 @@ life: Pope Saint Felix I , who was the first to condemn the heresy of Paul of Sa
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Pope_Felix_I
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/a/a5/PopeFelixI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wikimedia Commons · Public domain
 ---
 
 Pope Saint Felix I , who was the first to condemn the heresy of Paul of Samosata (274)

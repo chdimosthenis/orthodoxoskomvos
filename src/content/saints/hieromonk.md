@@ -7,6 +7,8 @@ life: Venerable Hieromonk Matthew of Yaransk the Wonderworker ( 'Mitrophan Kuzmi
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Hieromonk
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/7/70/Saint_Barlaam_of_Kyiv_Caves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown Monk · Wikimedia Commons · Public domain
 ---
 
 Venerable Hieromonk Matthew of Yaransk the Wonderworker ( 'Mitrophan Kuzmich Zvetsov' ) (1927)

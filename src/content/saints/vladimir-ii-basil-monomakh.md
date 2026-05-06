@@ -8,6 +8,8 @@ life: 'Right-believing Prince Vladimir II (Basil) Monomakh of Kievan Rus (1125) 
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Vladimir_II_Monomakh
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/f/fb/1000_Monomah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Дар Ветер · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Right-believing Prince Vladimir II (Basil) Monomakh of Kievan Rus (1125) ( see also: July 15 - Synaxis of All Saints of Kiev )

@@ -7,6 +7,8 @@ life: Saint John the Russian the Confessor, whose relics are on the island of Eu
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/John_the_Russian
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/a/ab/John_the_Russian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unidentified painter · Wikimedia Commons · Public domain
 ---
 
 Saint John the Russian the Confessor, whose relics are on the island of Euboea (1730)

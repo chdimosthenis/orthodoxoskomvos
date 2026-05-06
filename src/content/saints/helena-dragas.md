@@ -7,6 +7,8 @@ life: Venerable Helena Dragaš ( Hypomone, Ipomoni of Loutraki ) (1450)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Helena_Dragaš
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/b/bb/Saint_Hipomini_icon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Dr Dimitrios - James Manos · Wikimedia Commons · Public domain
 ---
 
 Venerable Helena Dragaš ( Hypomone, Ipomoni of Loutraki ) (1450)

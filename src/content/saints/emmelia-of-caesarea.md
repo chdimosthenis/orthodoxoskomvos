@@ -7,6 +7,8 @@ life: Saint Emmelia of Caesarea , mother of Saint Basil the Great (375) ( see al
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Emmelia_of_Caesarea
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/St._Emmelia_Met_DP890979.jpg/960px-St._Emmelia_Met_DP890979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Jacques Callot · Wikimedia Commons · CC0
 ---
 
 Saint Emmelia of Caesarea , mother of Saint Basil the Great (375) ( see also January 1 )

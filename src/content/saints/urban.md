@@ -7,6 +7,8 @@ life: Hieromartyr Urban , Pope of Rome (230)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Pope_Urban_I
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/3/3a/Pope_Urban_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Artaud de Montor (1772–1849) · Wikimedia Commons · Public domain
 ---
 
 Hieromartyr Urban , Pope of Rome (230)

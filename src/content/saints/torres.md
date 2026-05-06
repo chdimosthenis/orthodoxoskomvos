@@ -7,6 +7,8 @@ life: Martyrs Gabinus and Crispulus, at Torres in Sardinia, Protomartyrs of Sard
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Porto_Torres
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Porto_Torres_-_city.jpg/960px-Porto_Torres_-_city.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Michiel1972 · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Martyrs Gabinus and Crispulus, at Torres in Sardinia, Protomartyrs of Sardinia (130)

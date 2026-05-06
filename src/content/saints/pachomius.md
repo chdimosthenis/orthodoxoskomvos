@@ -7,6 +7,8 @@ life: Saint Pachomius the Great, founder of cenobitic monasticism (348)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Pachomius
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/3/39/StPakhom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wikimedia Commons · Public domain
 ---
 
 Saint Pachomius the Great, founder of cenobitic monasticism (348)

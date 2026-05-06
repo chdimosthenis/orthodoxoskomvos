@@ -7,6 +7,9 @@ life: Martyr Hermias of Comana (160)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Hermias_(martyr)
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/4/41/Menaion_icon_%2817_c.%2C_TsAK%29_-_May_-_46_-_Hermias_of_Comana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Anonymous Russian icon painter (before 1917)Public domain image (according to PD-Russia-expired)
+  · Wikimedia Commons · Public domain
 ---
 
 Martyr Hermias of Comana (160)

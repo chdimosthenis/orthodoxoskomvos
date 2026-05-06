@@ -7,6 +7,8 @@ life: Blessed Constantine XI Palaiologos , last Roman emperor, martyred by the O
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Constantine_XI_Palaiologos
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Konstantinos_XI_Palaiologos_fresco_%28edit%29.jpg/960px-Konstantinos_XI_Palaiologos_fresco_%28edit%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Blessed Constantine XI Palaiologos , last Roman emperor, martyred by the Ottoman Turks (1453)

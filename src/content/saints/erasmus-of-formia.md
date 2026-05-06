@@ -7,6 +7,8 @@ life: Hieromartyr Erasmus of Formia , Bishop of Formia in Campania , and 20,000 
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Erasmus_of_Formia
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/a/aa/Falkensteiner_Retabel_Drehfl%C3%BCgel_rechts_au%C3%9Fen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Master of Messkirch · Wikimedia Commons · Public domain
 ---
 
 Hieromartyr Erasmus of Formia , Bishop of Formia in Campania , and 20,000 martyrs with him (303)

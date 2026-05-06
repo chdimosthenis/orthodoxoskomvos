@@ -7,6 +7,8 @@ life: Saint Julia of Corsica the martyr, who was crucified (440)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Julia_of_Corsica
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Meaux_Vitrail_1867_30808_2.jpg/960px-Meaux_Vitrail_1867_30808_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Vassil · Wikimedia Commons · Public domain
 ---
 
 Saint Julia of Corsica the martyr, who was crucified (440)

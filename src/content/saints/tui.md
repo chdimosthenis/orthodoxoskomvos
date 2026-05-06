@@ -8,6 +8,8 @@ life: Hieromartyrs Epitacius, first Bishop of Tui in Galicia (Spain) ; and Basil
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Tui,_Pontevedra
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Old_international_bridge_Valenca_Tui.jpg/960px-Old_international_bridge_Valenca_Tui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Krzysztof Golik · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Hieromartyrs Epitacius, first Bishop of Tui in Galicia (Spain) ; and Basileus, second Bishop of Braga in Portugal c. 60-95 (1st century)

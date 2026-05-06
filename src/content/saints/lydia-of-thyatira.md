@@ -7,6 +7,8 @@ life: Saint Lydia of Thyatira (Lydia of Philippi), mentioned in Acts 16:14-15 (1
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Lydia_of_Thyatira
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/b/ba/Lidia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Russisch Ikone in Gemeinfreiheit - public domain · Wikimedia Commons · Public domain
 ---
 
 Saint Lydia of Thyatira (Lydia of Philippi), mentioned in Acts 16:14-15 (1st century)

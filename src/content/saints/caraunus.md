@@ -7,6 +7,8 @@ life: Hieromartyr Caraunus ( Ceraunus, Cheron ), Deacon, near Chartres (5th cent
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Caraunus
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/f/f6/Cavan._Eglise._Saint_Cheron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: J.C EVEN · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Hieromartyr Caraunus ( Ceraunus, Cheron ), Deacon, near Chartres (5th century)

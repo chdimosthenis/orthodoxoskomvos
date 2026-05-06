@@ -7,6 +7,8 @@ life: Martyr Julius the Veteran , at Dorostolum in Moesia (297)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Julius_the_Veteran
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/3/35/IuliusVeteranul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Martyr Julius the Veteran , at Dorostolum in Moesia (297)

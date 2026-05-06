@@ -7,6 +7,8 @@ life: Saint Justus of Urgell , first recorded Bishop of Urgell , in Catalonia in
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Justus_of_Urgell
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/6/69/Saint_Justus.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Domenico Ghirlandaio · Wikimedia Commons · Public domain
 ---
 
 Saint Justus of Urgell , first recorded Bishop of Urgell , in Catalonia in Spain (527)

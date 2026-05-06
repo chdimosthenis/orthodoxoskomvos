@@ -7,6 +7,8 @@ life: Saint Nicholas Mystikos , Patriarch of Constantinople (925)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Nicholas_Mystikos
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/1/17/Nicholas_Mystikos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Nikolai Pavlovic (1835-1894) · Wikimedia Commons · Public domain
 ---
 
 Saint Nicholas Mystikos , Patriarch of Constantinople (925)

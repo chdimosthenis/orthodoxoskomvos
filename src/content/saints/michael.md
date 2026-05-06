@@ -7,6 +7,8 @@ life: Saint Michael the Confessor , Bishop of Synnada in Phrygia Salutaris (826)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Michael_of_Synnada
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/1/10/Rila_Mon._-_Fresco_mir._icon_026_Michael_of_Synnada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Димитър Христов и Зафир. 1843 · Wikimedia Commons · Public domain
 ---
 
 Saint Michael the Confessor , Bishop of Synnada in Phrygia Salutaris (826)

@@ -8,6 +8,8 @@ life: Ninnoca, Nennoc, Gwengustle ), a holy virgin from Britain who followed St 
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Saint_Ninnoc
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Ninnoc.jpg/960px-Ninnoc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Mael vreizh · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Ninnoca, Nennoc, Gwengustle ), a holy virgin from Britain who followed St Germanus to France, becoming an abbess in Brittany at Ploërmel or Pleumeur-Gautier (c. 467)

@@ -7,6 +7,8 @@ life: Saint Paschasius, Deacon and Confessor in Rome, who is mentioned by Pope G
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Pope_Gregory_I
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/6/67/Pope_Gregory_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Saint Paschasius, Deacon and Confessor in Rome, who is mentioned by Pope Gregory I (512)

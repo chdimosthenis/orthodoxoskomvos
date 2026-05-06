@@ -7,6 +7,8 @@ life: Apostle Hermes of Philippopolis ( Hermas ), of the Seventy Apostles (1st c
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Hermes_of_Philippopolis
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/1/1e/Hermes_of_Philippopolis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: AnonymousUnknown author · Wikimedia Commons · Public domain
 ---
 
 Apostle Hermes of Philippopolis ( Hermas ), of the Seventy Apostles (1st century)

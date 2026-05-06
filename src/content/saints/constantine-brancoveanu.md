@@ -8,6 +8,8 @@ life: New Martyrs King Constantine Brancoveanu of Wallachia and his four sons Co
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Constantin_Brâncoveanu
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/6/69/Constantin_Br%C3%A2ncoveanu_-_litografie_de_A._Bielz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Atelierul litografic Andreas Bielz - Bucuresti · Wikimedia Commons · Public domain
 ---
 
 New Martyrs King Constantine Brancoveanu of Wallachia and his four sons Constantine, Stephen, Radu, and Matthew, and his counsellor Ianache (1714)

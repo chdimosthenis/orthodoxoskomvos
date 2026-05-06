@@ -7,6 +7,8 @@ life: Martyrs Vitus, Modestus, and Crescentia at Lucania (c. 303)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Vitus,_Modestus,_and_Crescentia
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/9/96/Vitus_CXXVr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wikimedia Commons · Public domain
 ---
 
 Martyrs Vitus, Modestus, and Crescentia at Lucania (c. 303)

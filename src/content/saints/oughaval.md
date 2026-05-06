@@ -8,6 +8,8 @@ life: Saint Colmán of Oughaval ( Colman mac Ua Laoighse, Colman Mc O'Laoighse )
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Oughaval_(County_Laois)
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Stradbally_Oughaval_Church_SE_2010_09_02.jpg/960px-Stradbally_Oughaval_Church_SE_2010_09_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Andreas F. Borchert · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Saint Colmán of Oughaval ( Colman mac Ua Laoighse, Colman Mc O'Laoighse ), a disciple of St Columba and St Fintan of Clonenagh (6th century)

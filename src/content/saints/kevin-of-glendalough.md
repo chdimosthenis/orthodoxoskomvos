@@ -7,6 +7,8 @@ life: Saint Kevin of Glendalough ( Coemgen, Caoimhghin ), hermit and abbot, of G
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Kevin_of_Glendalough
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/d/d0/Kevin-black.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wikimedia Commons · Public domain
 ---
 
 Saint Kevin of Glendalough ( Coemgen, Caoimhghin ), hermit and abbot, of Glendalough , Ireland (618)

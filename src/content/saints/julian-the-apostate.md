@@ -7,6 +7,8 @@ life: Martyrs Timothy, Faustinus and Venustus, in Rome, under Julian the Apostat
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Julian_the_Apostate
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/c/cd/JulianusII-antioch%28360-363%29-CNG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Classical Numismatic Group, Inc. (CNG) · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Martyrs Timothy, Faustinus and Venustus, in Rome, under Julian the Apostate (362)

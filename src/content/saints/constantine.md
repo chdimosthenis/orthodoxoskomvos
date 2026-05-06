@@ -8,6 +8,8 @@ life: Blessed Constantine (Yaroslav), prince, and his children Michael and Theod
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Konstantin_of_Murom
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/3/3e/Izbornik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Blessed Constantine (Yaroslav), prince, and his children Michael and Theodore, Wonderworkers of Murom (1129)

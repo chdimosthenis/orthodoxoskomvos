@@ -46,7 +46,7 @@ const generatedAt = new Date(newsData.generated_at).toLocaleString(localeTag, {
           {item.category && item.category !== 'general' && (
             <>
               {' · '}
-              <span class="news-page-category">{t(`category.${item.category}` as UIKey)}</span>
+              <span class="news-page-category">{t(`news.cat.${item.category}` as UIKey)}</span>
             </>
           )}
         </p>

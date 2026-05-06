@@ -7,6 +7,8 @@ life: Saint Stephen , Abbot of Piperi Monastery in Serbia (1697)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Stephen_of_Piperi
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/4/40/Saint_Stephen_of_Piperi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Saint Stephen , Abbot of Piperi Monastery in Serbia (1697)

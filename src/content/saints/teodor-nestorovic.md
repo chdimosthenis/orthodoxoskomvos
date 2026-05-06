@@ -7,6 +7,8 @@ life: New Hieromartyr Teodor (Nestorović) of Vršac, Bishop of Vršac in Banat,
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Teodor_of_Vršac
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/9/9d/Sveti_sve%C5%A1tenomu%C4%8Denik_Teodor_-_episkop_vr%C5%A1a%C4%8Dki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: OneWithNoSins · Wikimedia Commons · CC0
 ---
 
 New Hieromartyr Teodor (Nestorović) of Vršac, Bishop of Vršac in Banat, Serbia (1594)

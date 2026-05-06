@@ -7,6 +7,8 @@ life: Saint Constantine the Fool-for-Christ , of Novotorzhsky , Russia (c. 16th 
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Torzhok
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Vadimrazumov_copter_-_Borisoglebskiy_monastir%2C_Torzhok.jpg/960px-Vadimrazumov_copter_-_Borisoglebskiy_monastir%2C_Torzhok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Usadboved · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Saint Constantine the Fool-for-Christ , of Novotorzhsky , Russia (c. 16th century)

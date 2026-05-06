@@ -7,6 +7,8 @@ life: Saints Nicetas, John and Joseph, founders of the Monastery of Nea Moni on 
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Nea_Moni_of_Chios
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/NEA_MONH.jpg/960px-NEA_MONH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: FLIOUKAS · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Saints Nicetas, John and Joseph, founders of the Monastery of Nea Moni on Chios (c. 1050)

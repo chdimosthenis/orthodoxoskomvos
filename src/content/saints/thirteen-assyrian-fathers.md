@@ -7,6 +7,8 @@ life: Saint Pyrrhus of Breti, one of Thirteen Assyrian Fathers (6th century)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Thirteen_Assyrian_Fathers
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/c/c9/David_Garejeli_%2818th_c._miniature%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Saint Pyrrhus of Breti, one of Thirteen Assyrian Fathers (6th century)

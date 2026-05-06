@@ -7,6 +7,8 @@ life: Saint Manaen ( Manahen ), prophet and teacher of the Church of Antioch (Ac
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Manahen
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/0/08/Acts_of_the_Apostles_Chapter_13-3_%28Bible_Illustrations_by_Sweet_Media%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Jim Padgett · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Saint Manaen ( Manahen ), prophet and teacher of the Church of Antioch (Acts 13:1) (1st century)

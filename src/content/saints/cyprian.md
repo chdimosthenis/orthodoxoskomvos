@@ -8,6 +8,8 @@ life: Saint Caecilius ( Caecilian ), a priest in Carthage in North Africa who co
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Cyprian
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/c/ce/Stcyprian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Saint Caecilius ( Caecilian ), a priest in Carthage in North Africa who converted St Cyprian to Christ (3rd century)

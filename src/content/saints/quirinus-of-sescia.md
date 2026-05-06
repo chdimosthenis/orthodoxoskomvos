@@ -7,6 +7,8 @@ life: Saint Quirinus of Sescia , Bishop of Siscia (Sisak or Seseg), now in Croat
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Quirinus_of_Sescia
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/1/12/Quirinus_of_Siscia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown artist · Wikimedia Commons · Public domain
 ---
 
 Saint Quirinus of Sescia , Bishop of Siscia (Sisak or Seseg), now in Croatia (308)

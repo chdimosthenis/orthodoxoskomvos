@@ -7,6 +7,8 @@ life: New Martyr Vukasin of Klepci , in Hercegovina, under the Ustashi terrorist
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Vukašin_Mandrapa
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/d/dd/Frescoe_of_Vuka%C5%A1in_Jasenova%C4%8Dki_in_Saint_Sava_temple_in_Belgrade_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Ђидо · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 New Martyr Vukasin of Klepci , in Hercegovina, under the Ustashi terrorists (1943)

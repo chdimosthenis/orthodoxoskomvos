@@ -7,6 +7,8 @@ life: Hieromartyr Pope Theodore I of Rome, who was burned alive (649)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Pope_Theodore_I
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/f/f0/Theodorus_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Hieromartyr Pope Theodore I of Rome, who was burned alive (649)

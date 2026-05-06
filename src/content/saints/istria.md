@@ -7,6 +7,8 @@ life: Martyrs Zöellus, Servilius, Felix, Silvanus, and Diocles, in Istria .
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Istria
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/4/45/Istria.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Markus Bernet · Wikimedia Commons · Public domain
 ---
 
 Martyrs Zöellus, Servilius, Felix, Silvanus, and Diocles, in Istria .

@@ -8,6 +8,8 @@ life: 'The Seven Apostolic Men , Martyr Bishops, ordained in Rome by Saints Pete
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Seven_Apostolic_Men
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/8/87/2006.05.14_04521_San_Isicio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Juandiegocano · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 The Seven Apostolic Men , Martyr Bishops, ordained in Rome by Saints Peter and Paul , and sent to evangelize Spain (1st century):

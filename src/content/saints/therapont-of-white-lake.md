@@ -7,6 +7,8 @@ life: Venerable Therapont of White Lake , Abbot of Byelozersk (White Lake) and M
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Therapont_of_White_Lake
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/0/08/Ferapont_Belozersky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: AnonymousUnknown author · Wikimedia Commons · Public domain
 ---
 
 Venerable Therapont of White Lake , Abbot of Byelozersk (White Lake) and Mozhaisk (1426)

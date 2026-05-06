@@ -7,6 +7,8 @@ life: 'Saint Patrice ( Patrick ), fourth Bishop of Bayeux in France (c.469) ( se
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Patricius_of_Bayeux
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Peinture_Saint-Patrice.JPG/960px-Peinture_Saint-Patrice.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Giogo · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Saint Patrice ( Patrick ), fourth Bishop of Bayeux in France (c.469) ( see also: May 23 )

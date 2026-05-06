@@ -7,6 +7,8 @@ life: Martyrs Cantius, Cantian, Cantianilla and Protus, in Aquileia (304)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Cantius,_Cantianius,_and_Cantianella
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Martyrium_Cantii%2C_Cantiani%2C_et_Cantianillae.jpg/960px-Martyrium_Cantii%2C_Cantiani%2C_et_Cantianillae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Master of the Krainburg Altar · Wikimedia Commons · Public domain
 ---
 
 Martyrs Cantius, Cantian, Cantianilla and Protus, in Aquileia (304)

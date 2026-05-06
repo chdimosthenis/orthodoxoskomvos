@@ -7,6 +7,8 @@ life: Saint Senator of Milan , Bishop of Milan , (480)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Senator_(bishop_of_Milan)
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/b/bf/Saint_Senator_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: A ntv · Wikimedia Commons · CC BY-SA 3.0
 ---
 
 Saint Senator of Milan , Bishop of Milan , (480)

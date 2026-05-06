@@ -7,6 +7,8 @@ life: New Hieromartyr Damian ( Damjan ) Strbac , Jr., priest of Grahovo , Serbia
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Damjan_Štrbac
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/c/c6/Damjan-Strbac-Grahovski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wikimedia Commons · Public domain
 ---
 
 New Hieromartyr Damian ( Damjan ) Strbac , Jr., priest of Grahovo , Serbia (1941)

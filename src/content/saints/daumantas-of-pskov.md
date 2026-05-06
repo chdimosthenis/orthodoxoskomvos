@@ -7,6 +7,8 @@ life: St. Daumantas of Pskov ( Dovmont-Timothy ), Prince of Pskov (1299)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Daumantas_of_Pskov
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Mirozhskaya.jpg/960px-Mirozhskaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: shakko · Wikimedia Commons · Public domain
 ---
 
 St. Daumantas of Pskov ( Dovmont-Timothy ), Prince of Pskov (1299)

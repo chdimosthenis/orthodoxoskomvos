@@ -7,6 +7,8 @@ life: Virgin-Martyr Pudentiana ( Potentiana ), daughter of Saint Pudens the sena
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Pudentiana
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/5/5c/Pudentiana%2C_detail_of_a_mosaic_in_Santa_Pudenziana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wikimedia Commons · Public domain
 ---
 
 Virgin-Martyr Pudentiana ( Potentiana ), daughter of Saint Pudens the senator (160)

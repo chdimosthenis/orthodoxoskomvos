@@ -7,6 +7,8 @@ life: Saint Demetrius of Moscow the Wonderworker, Slain Crown Prince (1591)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Tsarevich_Dmitry_Ivanovich_of_Russia_(born_1582)
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/8/86/Dmitry_Uglitsky_kryshka_raki_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: kremlin armoury · Wikimedia Commons · Public domain
 ---
 
 Saint Demetrius of Moscow the Wonderworker, Slain Crown Prince (1591)

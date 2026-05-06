@@ -7,6 +7,8 @@ life: a noble who became a monk and later Abbot of Melrose Abbey in Scotland (69
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Saint_Oduvald
 license: CC-BY-SA
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/MELROSE_ABBEY_Looking_along_the_nave_from_the_west.JPG/960px-MELROSE_ABBEY_Looking_along_the_nave_from_the_west.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: HARTLEPOOLMARINA2014 · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 a noble who became a monk and later Abbot of Melrose Abbey in Scotland (698)

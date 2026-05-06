@@ -1,11 +1,14 @@
 ---
-name: "Ἅγιος Λάζαρος ὁ Τετραήμερος"
-feastDay: "10-17"
+name: Ἅγιος Λάζαρος ὁ Τετραήμερος
+feastDay: 10-17
 category: hierarch
-life: "Ὁ φίλος τοῦ Χριστοῦ ποὺ ἀναστήθηκε ἐκ νεκρῶν στὴ Βηθανία (Ἰω. 11)· ἀργότερα ἐπίσκοπος Κιτίου Κύπρου, ἔζησε 30 χρόνια μετὰ τὴν ἀνάστασή του."
+life: Ὁ φίλος τοῦ Χριστοῦ ποὺ ἀναστήθηκε ἐκ νεκρῶν στὴ Βηθανία (Ἰω. 11)· ἀργότερα ἐπίσκοπος Κιτίου Κύπρου,
+  ἔζησε 30 χρόνια μετὰ τὴν ἀνάστασή του.
 language: el
-wikipediaTitle: "Lazarus of Bethany"
+wikipediaTitle: Lazarus of Bethany
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Juan_de_Flandes_001.jpg/960px-Juan_de_Flandes_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Juan de Flandes · Wikimedia Commons · Public domain
 ---
 
 Ὁ Λάζαρος ἦταν στενὸς φίλος τοῦ Χριστοῦ καὶ ἀδελφὸς τῆς Μάρθας καὶ τῆς Μαρίας. Ζοῦσαν στὴ Βηθανία, χωριὸ ἀνατολικὰ τῆς Ἱερουσαλήμ, ὅπου ὁ Κύριος συχνὰ φιλοξενοῦνταν. Ὅταν ὁ Λάζαρος ἀρρώστησε σοβαρά, οἱ ἀδελφές του ἔστειλαν μήνυμα στὸν Χριστὸ πέρα ἀπὸ τὸν Ἰορδάνη. Ὁ Κύριος καθυστέρησε σκόπιμα τέσσερις ἡμέρες, ὥστε ὁ Λάζαρος εἶχε ἤδη πεθάνει καὶ ἐνταφιαστεῖ ὅταν ἔφτασε.

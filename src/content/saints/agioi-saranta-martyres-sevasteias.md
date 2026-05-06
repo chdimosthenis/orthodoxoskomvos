@@ -1,11 +1,14 @@
 ---
-name: "Ἅγιοι Τεσσαράκοντα Μάρτυρες τῆς Σεβαστείας"
-feastDay: "03-09"
+name: Ἅγιοι Τεσσαράκοντα Μάρτυρες τῆς Σεβαστείας
+feastDay: 03-09
 category: martyr
-life: "Σαράντα Ρωμαῖοι στρατιῶτες χριστιανοὶ ποὺ μαρτύρησαν στὴ Σεβάστεια Ἀρμενίας (320 μ.Χ.)· ριχτηκαν γυμνοὶ σὲ παγωμένη λίμνη."
+life: Σαράντα Ρωμαῖοι στρατιῶτες χριστιανοὶ ποὺ μαρτύρησαν στὴ Σεβάστεια Ἀρμενίας (320 μ.Χ.)· ριχτηκαν
+  γυμνοὶ σὲ παγωμένη λίμνη.
 language: el
-wikipediaTitle: "Forty Martyrs of Sebaste"
+wikipediaTitle: Forty Martyrs of Sebaste
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/3/3b/FortyMartyrsofSebaste.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: anonimus · Wikimedia Commons · Public domain
 ---
 
 Στὴν ἐποχὴ τοῦ Λικινίου (320 μ.Χ.), ὁ ρωμαϊκὸς στρατὸς ἦταν ἀκόμα ἀνεκτικὸς πρὸς τοὺς χριστιανοὺς στρατιῶτες, ἀλλὰ τοπικοὶ ἀξιωματοῦχοι σὲ ὁρισμένες ἐπαρχίες ἀκολουθοῦσαν διαφορετικὴ πολιτική. Στὴ Σεβάστεια τῆς Μ. Ἀσίας (σημερινὴ Σιβᾶς, Τουρκία), σαράντα στρατιῶτες τῆς ἴδιας λεγεώνας ὁμολόγησαν δημοσίως τὴν πίστη τους.

@@ -1,11 +1,14 @@
 ---
-name: "Ἅγιος Ἰάκωβος ὁ Ἀδελφόθεος"
-feastDay: "10-23"
+name: Ἅγιος Ἰάκωβος ὁ Ἀδελφόθεος
+feastDay: 10-23
 category: apostle
-life: "Πρῶτος ἐπίσκοπος Ἱεροσολύμων· συνέταξε τὴν ἀρχαιότερη Θεία Λειτουργία· συντάκτης τῆς Ἐπιστολῆς Ἰακώβου τῆς Καινῆς Διαθήκης."
+life: Πρῶτος ἐπίσκοπος Ἱεροσολύμων· συνέταξε τὴν ἀρχαιότερη Θεία Λειτουργία· συντάκτης τῆς Ἐπιστολῆς Ἰακώβου
+  τῆς Καινῆς Διαθήκης.
 language: el
-wikipediaTitle: "James, brother of Jesus"
+wikipediaTitle: James, brother of Jesus
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/9/96/Saint_James_the_Just.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wikimedia Commons · Public domain
 ---
 
 Ὁ Ἰάκωβος ὁ Ἀδελφόθεος ταυτίζεται μὲ τὸν Ἰάκωβο τὸν Δίκαιο ποὺ ἀναφέρεται ὡς «ἀδελφὸς τοῦ Κυρίου» στὰ Εὐαγγέλια καὶ τὶς Πράξεις. Ἡ ὀρθόδοξη παράδοση τὸν θεωρεῖ ὑιὸ τοῦ Ἰωσὴφ ἀπὸ προηγούμενο γάμο — δηλαδὴ ἑτεροθαλὴ ἀδελφό τοῦ Κυρίου, ὄχι βιολογικὸ τέκνο τῆς Παναγίας.

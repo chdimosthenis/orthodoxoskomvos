@@ -1,11 +1,13 @@
 ---
-name: "Ἅγιος Φίλιππος ὁ Ἀπόστολος"
-feastDay: "11-14"
+name: Ἅγιος Φίλιππος ὁ Ἀπόστολος
+feastDay: 11-14
 category: apostle
-life: "Ἕνας ἐκ τῶν δώδεκα· ἀπὸ τὴ Βηθσαϊδά τῆς Γαλιλαίας· κήρυξε στὴ Φρυγία ὅπου καὶ μαρτύρησε."
+life: Ἕνας ἐκ τῶν δώδεκα· ἀπὸ τὴ Βηθσαϊδά τῆς Γαλιλαίας· κήρυξε στὴ Φρυγία ὅπου καὶ μαρτύρησε.
 language: el
-wikipediaTitle: "Philip the Apostle"
+wikipediaTitle: Philip the Apostle
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/8/8f/Philip_the_Apostle_icon.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown Russian Orthodox icon painter · Wikimedia Commons · Public domain
 ---
 
 Ὁ Φίλιππος ἦταν ἀπὸ τὴ Βηθσαϊδά τῆς Γαλιλαίας, ὁμοχωρίτης τοῦ Πέτρου καὶ τοῦ Ἀνδρέα. Κλήθηκε ἀπὸ τὸν ἴδιο τὸν Χριστὸ μὲ τὸ ἁπλὸ «Ἀκολούθει μοι», καὶ ἀμέσως ἔτρεξε νὰ φέρει καὶ τὸν Ναθαναὴλ —τὸν μετέπειτα Βαρθολομαῖο— ἐνημερώνοντάς τον: «Ὃν ἔγραψεν Μωϋσῆς ἐν τῷ νόμῳ καὶ οἱ προφῆται εὑρήκαμεν, Ἰησοῦν τὸν υἱὸν τοῦ Ἰωσὴφ τὸν ἀπὸ Ναζαρέτ».

@@ -1,11 +1,15 @@
 ---
-name: "Ἅγιος Διονύσιος ὁ Ἀρεοπαγίτης"
-feastDay: "10-03"
+name: Ἅγιος Διονύσιος ὁ Ἀρεοπαγίτης
+feastDay: 10-03
 category: hierarch
-life: "Ἕνας ἐκ τῶν Ἑβδομήκοντα Ἀποστόλων· πρῶτος ἐπίσκοπος Ἀθηνῶν, μετεστράφη ἀπὸ τὸ κήρυγμα τοῦ Παύλου στὸν Ἄρειο Πάγο."
+life: Ἕνας ἐκ τῶν Ἑβδομήκοντα Ἀποστόλων· πρῶτος ἐπίσκοπος Ἀθηνῶν, μετεστράφη ἀπὸ τὸ κήρυγμα τοῦ Παύλου
+  στὸν Ἄρειο Πάγο.
 language: el
-wikipediaTitle: "Dionysius the Areopagite"
+wikipediaTitle: Dionysius the Areopagite
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/a/ae/Dionysius_Areopagita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: The original uploader was Markus Mueller at German Wikipedia. · Wikimedia Commons · Public
+  domain
 ---
 
 Ὁ Διονύσιος ἦταν μέλος τοῦ Ἀρείου Πάγου τῶν Ἀθηνῶν — τοῦ ἀνώτατου δικαστικοῦ ὀργάνου τῆς πόλης. Ὅταν ὁ ἀπόστολος Παῦλος ἐκήρυξε στὸν Ἄρειο Πάγο γιὰ τὸν «ἄγνωστο Θεό» (Πραξ. 17,22-34), ὁ Διονύσιος ἦταν ὁ μόνος ἀπὸ τοὺς δικαστὲς ποὺ μετεστράφη ἀμέσως. Ἀκολούθησε τὸν ἀπόστολο, βαπτίστηκε καὶ ἔγινε ὁ πρῶτος ἐπίσκοπος Ἀθηνῶν.

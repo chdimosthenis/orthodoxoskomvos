@@ -1,11 +1,14 @@
 ---
-name: "Ἅγιος Νικόδημος ὁ Ἁγιορείτης"
-feastDay: "07-14"
+name: Ἅγιος Νικόδημος ὁ Ἁγιορείτης
+feastDay: 07-14
 category: monastic
-life: "Λόγιος μοναχὸς τῆς Νάξου (1749-1809) ποὺ ἔζησε στὸ Ἅγιον Ὄρος· συντάκτης τῆς Φιλοκαλίας μαζὶ μὲ τὸν Μακάριο Κορίνθου."
+life: Λόγιος μοναχὸς τῆς Νάξου (1749-1809) ποὺ ἔζησε στὸ Ἅγιον Ὄρος· συντάκτης τῆς Φιλοκαλίας μαζὶ μὲ
+  τὸν Μακάριο Κορίνθου.
 language: el
-wikipediaTitle: "Nicodemus the Hagiorite"
+wikipediaTitle: Nicodemus the Hagiorite
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/%CE%86%CE%B3%CE%B9%CE%BF%CF%82_%CE%9D%CE%B9%CE%BA%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82_%CE%BF_%CE%91%CE%B3%CE%B9%CE%BF%CF%81%CE%B5%CE%AF%CF%84%CE%B7%CF%82.jpg/960px-%CE%86%CE%B3%CE%B9%CE%BF%CF%82_%CE%9D%CE%B9%CE%BA%CF%8C%CE%B4%CE%B7%CE%BC%CE%BF%CF%82_%CE%BF_%CE%91%CE%B3%CE%B9%CE%BF%CF%81%CE%B5%CE%AF%CF%84%CE%B7%CF%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Αντώνιος Ζουλιάνης εχάραξε. 1818 Venezia · Wikimedia Commons · Public domain
 ---
 
 Ὁ Νικόλαος Καλλιβούρτσης γεννήθηκε στὴ Νάξο τὸ 1749 ἀπὸ εὐσεβὴ οἰκογένεια. Σπούδασε στὴ Σχολὴ Σμύρνης ὑπὸ τὸν Ἱερόθεο Δεντρινό, μαθαίνοντας ἀρχαῖα ἑλληνικά, λατινικὰ καὶ ἰταλικά. Στὰ εἴκοσι ἕξι του χρόνια, ἐγκατέλειψε κάθε προοπτικὴ κοσμικῆς σταδιοδρομίας καὶ ἔφτασε στὸ Ἅγιον Ὄρος ὅπου ἐκάρη μοναχός μὲ τὸ ὄνομα Νικόδημος.

@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { getLangFromUrl, useTranslations, getLocalizedPath } from '../../../i18n/utils';
+import type { UIKey } from '../../../i18n/ui';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const articles = (await getCollection('articles'))
+  .filter(a => !a.data.draft && a.data.tags && a.data.tags.includes('history'));
+
+const clusters = [
+  { id: 'councils',       primaryTag: 'ecumenical-council', titleKey: 'history.section.councils'      },
+  { id: 'patriarchates',  primaryTag: 'patriarchate',       titleKey: 'history.section.patriarchates' },
+  { id: 'autocephalous',  primaryTag: 'autocephalous',      titleKey: 'history.section.autocephalous' },
+  { id: 'schisms',        primaryTag: 'schism',             titleKey: 'history.section.schisms'       },
+  { id: 'councils-other', primaryTag: 'council',            titleKey: 'history.section.councilsOther' },
+] as const;
+
+const shown = new Set<string>();
+const sections = clusters
+  .map(c => {
+    const items = articles
+      .filter(a => a.data.tags!.includes(c.primaryTag) && !shown.has(a.id))
+      .sort((a, b) => a.data.title.localeCompare(b.data.title, lang));
+    items.forEach(a => shown.add(a.id));
+    return { ...c, items };
+  })
+  .filter(s => s.items.length > 0);
+
+const localeTag = lang === 'el' ? 'el-GR' : 'en-GB';
+---
+
+<BaseLayout title={t('history.title')}>
+  <h1>{t('history.title')}</h1>
+  <p class="muted">{t('history.intro')}</p>
+
+  {sections.length === 0 ? (
+    <p class="muted">{t('no.entries')}</p>
+  ) : sections.map(section => (
+    <section class="history-section" id={section.id}>
+      <h2>{t(section.titleKey as UIKey)}</h2>
+      <ul class="card-list">
+        {section.items.map(a => (
+          <li class="history-card">
+            <h3>
+              <a href={getLocalizedPath(`/articles/${a.id}`, lang)} lang={a.data.language}>{a.data.title}</a>
+            </h3>
+            <p class="metadata">
+              {a.data.language === 'el' ? 'Greek' : 'English'}
+              {' · '}
+              <time datetime={a.data.pubDate.toISOString()}>
+                {a.data.pubDate.toLocaleDateString(localeTag, { year: 'numeric', month: 'long' })}
+              </time>
+            </p>
+            {a.data.description && a.data.description !== a.data.title && (
+              <p class="muted">{a.data.description}</p>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>
+
+<style>
+  .history-section { margin-top: 2.5rem; }
+  .history-section h2 { margin-top: 0; padding-bottom: 0.5rem; border-bottom: 1px solid var(--color-border); }
+  .history-card { padding-bottom: 1.25rem; border-bottom: 1px solid var(--color-border); }
+  .history-card:last-child { border-bottom: none; padding-bottom: 0; }
+  .history-card h3 { margin: 0 0 0.35rem; font-size: 1.2rem; }
+  .history-card h3 a { color: var(--color-text); border-bottom: none; }
+  .history-card h3 a:hover { color: var(--color-accent); }
+  .history-card p { margin: 0.25rem 0 0; }
+</style>

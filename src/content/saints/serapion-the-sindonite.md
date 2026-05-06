@@ -7,7 +7,6 @@ life: Venerable Serapion the Sindonite , monk of Egypt (5th century)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Serapion_the_Sindonite
 license: CC-BY-SA
-draft: true
 ---
 
 Venerable Serapion the Sindonite , monk of Egypt (5th century)

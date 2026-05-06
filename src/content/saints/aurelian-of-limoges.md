@@ -7,7 +7,6 @@ life: Saint Aurelian of Limoges , Disciple of St Martial of Limoges in France (3
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Aurelian_of_Limoges
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Orelle_-_%C3%A9glise_saint-Maurice_d%27Orelle_-_saint_Aurelle.jpg/960px-Orelle_-_%C3%A9glise_saint-Maurice_d%27Orelle_-_saint_Aurelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 iconAttribution: Myosotis alpestre · Wikimedia Commons · CC BY-SA 4.0
 ---

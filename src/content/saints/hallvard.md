@@ -8,7 +8,6 @@ life: 'Saint Hallvard , of the royal family of Norway, patron saint of Oslo, mar
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Hallvard_Vebjørnsson
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Oslo_komm.svg/960px-Oslo_komm.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---

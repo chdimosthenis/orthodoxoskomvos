@@ -7,7 +7,6 @@ life: Saint Mayeul ( Majolus, Maieul ), Abbot of Cluny (994)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Majolus_of_Cluny
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Mayeul ( Majolus, Maieul ), Abbot of Cluny (994)

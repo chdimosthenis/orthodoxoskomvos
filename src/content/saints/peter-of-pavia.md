@@ -7,7 +7,6 @@ life: Saint Peter of Pavia (735)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Peter_I_(bishop_of_Pavia)
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Peter of Pavia (735)

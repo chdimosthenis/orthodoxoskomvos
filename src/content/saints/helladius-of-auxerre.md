@@ -7,7 +7,6 @@ life: Saint Helladius of Auxerre (387)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Helladius_of_Auxerre
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Helladius of Auxerre (387)

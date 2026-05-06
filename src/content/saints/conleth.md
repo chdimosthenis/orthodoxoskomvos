@@ -7,7 +7,6 @@ life: 'Saint Conleth , hermit and first Bishop of Kildare (c. 519) (see also: Ma
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Conleth
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Conleth , hermit and first Bishop of Kildare (c. 519) (see also: May 3 and May 4 )

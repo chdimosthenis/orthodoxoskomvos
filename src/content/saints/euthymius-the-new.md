@@ -8,7 +8,6 @@ life: 'Saint Euthymius the New ( the Illuminator ) (1028), founder of Iveron Mon
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Euthymius_of_Athos
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/1/1f/Euthymius_Ivir_fresco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 iconAttribution: Public domainPublic domainfalsefalse This work is in the public domain in its country
   of origin and other countries and areas where the copyright term is the author's life plus 100 years

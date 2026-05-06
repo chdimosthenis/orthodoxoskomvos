@@ -7,7 +7,6 @@ life: Saint Servatius , Bishop of Tongres , defender against Arianism in the Net
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Saint_Servatius
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Maastricht%2C_Treasury_of_Saint_Servatius%2C_reliquary_bust_of_Servatius2.jpg/960px-Maastricht%2C_Treasury_of_Saint_Servatius%2C_reliquary_bust_of_Servatius2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 iconAttribution: Kleon3 · Wikimedia Commons · CC BY-SA 3.0
 ---

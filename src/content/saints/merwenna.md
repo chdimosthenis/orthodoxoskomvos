@@ -8,7 +8,6 @@ life: 'Saint Merwenna of Rumsey ( Merwinna, Merewenna ), first Abbess of Rumsey 
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Mærwynn
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Merwenna of Rumsey ( Merwinna, Merewenna ), first Abbess of Rumsey convent, in Hampshire (c. 970) ( see also: February 10 )

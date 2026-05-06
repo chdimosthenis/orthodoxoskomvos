@@ -7,7 +7,6 @@ life: Saint Desideratus , successor of St Arcadius as Bishop of Bourges, in Fran
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Desideratus
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Desideratus , successor of St Arcadius as Bishop of Bourges, in France (550)

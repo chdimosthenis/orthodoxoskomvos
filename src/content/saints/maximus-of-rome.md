@@ -7,7 +7,6 @@ life: Martyr Maximus of Rome , under Decius (250)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Maximus_of_Rome
 license: CC-BY-SA
-draft: true
 ---
 
 Martyr Maximus of Rome , under Decius (250)

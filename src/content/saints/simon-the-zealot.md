@@ -7,7 +7,6 @@ life: Saint Simon the Zealot , Apostle (1st century)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Simon_the_Canaanite
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/7/7a/SimonZilot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 iconAttribution: The original uploader was Pauk at Russian Wikipedia. · Wikimedia Commons · Public domain
 ---

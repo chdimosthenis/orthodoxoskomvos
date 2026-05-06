@@ -7,7 +7,6 @@ life: Saint Yoakim Krchovski (1820)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Yoakim_Karchovski
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Yoakim Krchovski (1820)

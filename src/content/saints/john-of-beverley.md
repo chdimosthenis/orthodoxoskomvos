@@ -7,7 +7,6 @@ life: 'Saint John of Beverley , Bishop of York (721) ( see also: March 7 )'
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/John_of_Beverley
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/c/c5/Statue_-_St_John_of_Beverley_on_the_Minster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 iconAttribution: Graham Hermon · Wikimedia Commons · CC BY-SA 2.0
 ---

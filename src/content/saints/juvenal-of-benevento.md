@@ -7,7 +7,6 @@ life: Martyr Juvenal of Benevento (132 AD)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Juvenal_of_Benevento
 license: CC-BY-SA
-draft: true
 ---
 
 Martyr Juvenal of Benevento (132 AD)

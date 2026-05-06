@@ -7,7 +7,6 @@ life: Saint Epiphanius , Bishop of Salamis and Metropolitan of Cyprus (403)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Epiphanius_of_Salamis
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/2/2c/Epiphanius-Kosovo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---

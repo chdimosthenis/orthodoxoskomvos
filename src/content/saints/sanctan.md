@@ -7,7 +7,6 @@ life: Saint Sanctan , Bishop of Kill-da-Les and Kill-na-Sanctan near Dublin in I
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Saint_Sanctan
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Sanctan , Bishop of Kill-da-Les and Kill-na-Sanctan near Dublin in Ireland (6th century)

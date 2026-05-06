@@ -7,7 +7,6 @@ life: Saint Isidore of Alexandria (Isidore The Simple-Minded) (319-404), (404)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Saint_Isidore_of_Alexandria
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Isidore of Alexandria (Isidore The Simple-Minded) (319-404), (404)

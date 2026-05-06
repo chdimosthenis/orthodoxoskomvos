@@ -7,7 +7,6 @@ life: Martyr Evellius , under Nero (66)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Evellius
 license: CC-BY-SA
-draft: true
 ---
 
 Martyr Evellius , under Nero (66)

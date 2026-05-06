@@ -7,7 +7,6 @@ life: Saints Nereus and Achilleus the martyrs (100)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Nereus_and_Achilleus
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/5/55/Nereusachilleusdomitilla_rubens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 iconAttribution: Peter Paul Rubens · Wikimedia Commons · Public domain
 ---

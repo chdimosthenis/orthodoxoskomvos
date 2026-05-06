@@ -7,7 +7,6 @@ life: Hieromartyr Therapontus , Bishop of Cyprus (632)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Therapont
 license: CC-BY-SA
-draft: true
 ---
 
 Hieromartyr Therapontus , Bishop of Cyprus (632)

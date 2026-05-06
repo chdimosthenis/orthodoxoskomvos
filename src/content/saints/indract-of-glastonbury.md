@@ -8,7 +8,6 @@ life: 'Hieromartyr Indract of Glastonbury , and his companions at Shapwick (c. 7
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Indract_of_Glastonbury
 license: CC-BY-SA
-draft: true
 ---
 
 Hieromartyr Indract of Glastonbury , and his companions at Shapwick (c. 7th or 8th century) (see also: February 5 )

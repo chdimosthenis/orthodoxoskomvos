@@ -7,7 +7,6 @@ life: Prophet Isaiah (8th century BC)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Isaiah
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/0/0b/Isaiah-Michelangelo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 iconAttribution: Michelangelo · Wikimedia Commons · Public domain
 ---

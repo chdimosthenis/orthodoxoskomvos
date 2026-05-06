@@ -7,7 +7,6 @@ life: Saint Edbert , Bishop of Lindisfarne (698)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Eadberht_of_Lindisfarne
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Edbert , Bishop of Lindisfarne (698)

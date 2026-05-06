@@ -7,7 +7,6 @@ life: Saint Credan of Cornwall, hogherd.
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Credan
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Credan of Cornwall, hogherd.

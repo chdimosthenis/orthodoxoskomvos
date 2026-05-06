@@ -7,7 +7,6 @@ life: Hieromartyr Dionysius of Vienne (193)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Dionysius_of_Vienne
 license: CC-BY-SA
-draft: true
 ---
 
 Hieromartyr Dionysius of Vienne (193)

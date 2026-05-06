@@ -8,7 +8,6 @@ life: Saint Cataldus , born in Munster in Ireland, became a monk at Lismore , th
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Catald
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/San_Cataldo_-_Supino_FR_%28particolare_della_statua%2C_1870%29.tiff/lossless-page1-960px-San_Cataldo_-_Supino_FR_%28particolare_della_statua%2C_1870%29.tiff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
 iconAttribution: Edadac · Wikimedia Commons · CC BY-SA 3.0
 ---

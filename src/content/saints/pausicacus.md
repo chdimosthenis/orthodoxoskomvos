@@ -7,7 +7,6 @@ life: Saint Pausicacus , Bishop of Synnada (606)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Pausicacus_of_Synada
 license: CC-BY-SA
-draft: true
 iconUrl: https://upload.wikimedia.org/wikipedia/commons/0/02/St_Pavsekakii.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 iconAttribution: AnonymousUnknown author · Wikimedia Commons · Public domain
 ---

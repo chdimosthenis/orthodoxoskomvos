@@ -7,7 +7,6 @@ life: 'Saint Maximus III of Jerusalem , Patriarch (350) (see also: August 26 )'
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Maximus_III_of_Jerusalem
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Maximus III of Jerusalem , Patriarch (350) (see also: August 26 )

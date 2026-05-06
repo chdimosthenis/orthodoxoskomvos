@@ -7,7 +7,6 @@ life: Saint Gangulphus (760)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Gangulphus
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Gangulphus (760)

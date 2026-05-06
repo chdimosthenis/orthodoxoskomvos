@@ -7,7 +7,6 @@ life: Saint Petronax of Monte Cassino (c. 747)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Petronax_of_Monte_Cassino
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Petronax of Monte Cassino (c. 747)

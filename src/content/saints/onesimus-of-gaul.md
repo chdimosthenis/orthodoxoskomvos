@@ -7,7 +7,6 @@ life: Saint Onesimus of Gaul , fifth Bishop of Soissons in France (361)
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Onesimus_of_Soissons
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Onesimus of Gaul , fifth Bishop of Soissons in France (361)

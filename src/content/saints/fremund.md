@@ -8,7 +8,6 @@ life: Saint Fremund of Dunstable, Anglo-Saxon hermit, killed by his kinsman Oswy
 language: en
 sourceUrl: https://en.wikipedia.org/wiki/Saint_Fremund
 license: CC-BY-SA
-draft: true
 ---
 
 Saint Fremund of Dunstable, Anglo-Saxon hermit, killed by his kinsman Oswy with the help of Danish invaders who had also murdered King Edmund (866)

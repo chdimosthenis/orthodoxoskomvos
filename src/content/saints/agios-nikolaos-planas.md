@@ -6,8 +6,6 @@ tropar: |
   Τῶν παρ' ἡμῖν ἐκλάμψαντα ἁγίων τὸν τιμιώτατον, καὶ τῶν Ἀθηνῶν τὸν ποιμένα ἀπλούστατον, Νικόλαον τὸν Πλανᾶν εὐφημήσωμεν, ὅτι ἁγνῶς ἐλειτούργησε τὰ θεῖα, καὶ τὴν ἀγάπην ἐκήρυξεν ἁπλῶς, ὑμνῶν Χριστὸν τὸν Σωτῆρα ἡμῶν.
 life: "Ὁ Ἅγιος Νικόλαος Πλανᾶς γεννήθηκε τὸ 1851 στὴ Νάξο. Ἐφημέριος στὴν Ἀθήνα ἐπὶ 50 χρόνια — διακρίθηκε γιὰ τὴν ἁπλότητα, τὴν ταπείνωση καὶ τὴν ἁγνότητα τοῦ βίου. Ἐκοιμήθη στὶς 2 Μαρτίου 1932. Ἀνακηρύχθηκε ἅγιος τὸ 1992."
 language: el
-iconUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Saint_Nicholas_Planas.jpg/600px-Saint_Nicholas_Planas.jpg"
-iconAttribution: "Wikimedia Commons · Public domain"
 wikipediaTitle: "Nicholas Planas"
 license: original
 ---

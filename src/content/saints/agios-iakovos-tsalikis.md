@@ -6,8 +6,6 @@ tropar: |
   Τοῦ Ὁσίου Δαβὶδ τὸν λάτρην καὶ ἰσότιμον, καὶ τῆς Εὐβοίας τὸ νέον σεμνολόγημα, Ἰάκωβον τὸν θεοφόρον τιμήσωμεν, ὅτι ἐν Εὐβοίᾳ ὥσπερ ἥλιος ἔλαμψε, καὶ τῷ τῆς ἀρετῆς πλούτῳ κόσμον κατηύγασε.
 life: "Ὁ Ἅγιος Ἰάκωβος Τσαλίκης (κατὰ κόσμον Ἰάκωβος) γεννήθηκε τὸ 1920 στὶς Λιβίσι τῆς Μ. Ἀσίας. Ἡγούμενος τῆς Ἱερᾶς Μονῆς Ὁσίου Δαβὶδ Εὐβοίας ἀπὸ τὸ 1975 ἕως τὴν κοίμησή του στὶς 21 Νοεμβρίου 1991. Ἀνακηρύχθηκε ἅγιος τὸ 2017."
 language: el
-iconUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Saint_Jacob_Tsalikis_2.jpg/600px-Saint_Jacob_Tsalikis_2.jpg"
-iconAttribution: "Wikimedia Commons · Public domain"
 wikipediaTitle: "Iakovos Tsalikis"
 license: original
 ---

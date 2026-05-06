@@ -4,8 +4,6 @@ feastDay: 08-04
 category: hierarch
 life: "Ὁ Μητροπολίτης Ἀντώνιος (Ἀντρέι Μπλούμ) γεννήθηκε στὴ Λωζάνη τὸ 1914 ἀπὸ Ρώσους διπλωμάτες. Ἰατρός, στρατιωτικὸς γιατρὸς στὴ Γαλλικὴ ἀντίσταση κατὰ τὴν Κατοχή, μοναχὸς τοῦ Πατριαρχείου Μόσχας. Ἀπὸ τὸ 1962 ἕως τὴν κοίμησή του στὶς 4 Αὐγούστου 2003 ὑπηρέτησε ὡς Μητροπολίτης Σουρόζ, ποιμαίνοντας τοὺς Ὀρθόδοξους τῆς Μ. Βρετανίας. Δὲν ἔχει ἀκόμα ἀνακηρυχθεῖ ἁγία· τιμᾶται εὐλαβῶς ὡς ἕνας ἀπὸ τοὺς πιὸ φωτεινοὺς πνευματικοὺς πατέρες τοῦ 20οῦ αἰῶνος."
 language: el
-iconUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Anthony_of_Sourozh.jpg/600px-Anthony_of_Sourozh.jpg"
-iconAttribution: "Wikimedia Commons · Public domain"
 wikipediaTitle: "Anthony of Sourozh"
 license: original
 draft: true

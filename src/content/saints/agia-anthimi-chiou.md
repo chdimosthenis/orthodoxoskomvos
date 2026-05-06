@@ -6,8 +6,6 @@ tropar: |
   Τῆς Χίου τὸν γόνον καὶ τῆς νῆς ἡμῶν τὸ καύχημα, Ἀνθίμην εὐφημήσωμεν, ὅτι ἁγνῶς ἐλάτρευσε Χριστόν, καὶ τῆς ψυχῆς πύργον ὑψώσασα δι' ἀσκήσεως, νῦν ἐν οὐρανοῖς δοξάζεται.
 life: "Ἡ Ἁγία Ἀνθίμη (κατὰ κόσμον Ἀνθή) γεννήθηκε στὴ Χῖο τὸ 1909. Ἀσκητικὴ μοναχὴ ποὺ ἔζησε σὲ ἄκρα ἀπομόνωση καὶ προσευχὴ στὸ μοναστήρι Παναγίας Βοηθείας τῆς Χίου. Ἐκοιμήθη στὶς 15 Φεβρουαρίου 1980. Ἀνακηρύχθηκε ἁγία τὸ 2025 (Οἰκουμενικὸ Πατριαρχεῖο)."
 language: el
-iconUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Saint_Anthimi_of_Chios.jpg/600px-Saint_Anthimi_of_Chios.jpg"
-iconAttribution: "Wikimedia Commons · Public domain"
 wikipediaTitle: "Anthimi of Chios"
 license: original
 ---

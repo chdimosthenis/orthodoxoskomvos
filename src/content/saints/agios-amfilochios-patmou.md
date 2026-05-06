@@ -6,8 +6,6 @@ tropar: |
   Τῆς Πάτμου τὸν θεῖον ποιμένα καὶ Ζωοδόχου Πηγῆς τὸν ἱδρυτήν, Ἀμφιλόχιον τὸν θεοφόρον τιμήσωμεν, οἱ τῆς αὐτοῦ ἀντιλήψεως πιστοί, βοῶντες· πάτερ ὅσιε, πρέσβευε Χριστῷ τῷ Θεῷ, σωθῆναι τὰς ψυχὰς ἡμῶν.
 life: "Ὁ Ἅγιος Ἀμφιλόχιος (κατὰ κόσμον Ἀθανάσιος Μακρῆς) γεννήθηκε στὴν Πάτμο τὸ 1889. Ἡγούμενος τῆς Ἱερᾶς Μονῆς Ἁγίου Ἰωάννου τοῦ Θεολόγου Πάτμου. Ἱδρυτὴς τῆς Ἱερᾶς Μονῆς Εὐαγγελισμοῦ Πάτμου καὶ τοῦ γυναικείου μοναστηριοῦ Ζωοδόχου Πηγῆς. Ἐκοιμήθη στὶς 16 Ἀπριλίου 1970. Ἀνακηρύχθηκε ἅγιος τὸ 2018."
 language: el
-iconUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Saint_Amphilochios_Makris_of_Patmos.jpg/600px-Saint_Amphilochios_Makris_of_Patmos.jpg"
-iconAttribution: "Wikimedia Commons · Public domain"
 wikipediaTitle: "Amphilochios Makris"
 license: original
 ---

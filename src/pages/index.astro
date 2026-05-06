@@ -9,8 +9,14 @@ import { getLangFromUrl, useTranslations } from '../i18n/utils';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
+// Naos-* tagged articles are subsection entries (vestments, orders,
+// architecture), not standalone articles — exclude from "recent articles".
+const isNaosEntry = (tags?: readonly string[]) =>
+  !!tags && tags.some(t => t.startsWith('naos-'));
+
 const articles = (await getCollection('articles'))
   .filter(a => a.data.language === lang && !a.data.draft)
+  .filter(a => !isNaosEntry(a.data.tags))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 6);
 ---

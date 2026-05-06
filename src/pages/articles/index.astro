@@ -7,8 +7,15 @@ import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
+// Articles tagged for the /naos-kai-latreia hub (architecture, vestments,
+// orders) are subsection entries, not standalone articles. Hide them from
+// the flat /articles index per user directive.
+const isNaosEntry = (tags?: readonly string[]) =>
+  !!tags && tags.some(t => t.startsWith('naos-'));
+
 const articles = (await getCollection('articles'))
   .filter(a => a.data.language === lang && !a.data.draft)
+  .filter(a => !isNaosEntry(a.data.tags))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const rssHref = lang === 'en' ? '/en/rss.xml' : '/rss.xml';

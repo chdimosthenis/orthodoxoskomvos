@@ -6,8 +6,6 @@ tropar: |
   Τῆς νήσου Εὐβοίας τὸν γόνον τὸν εὐκλεῆ, καὶ τῆς Καυσοκαλύβης τὸν ἔνθεον ἀσκητήν, Πορφύριον τιμήσωμεν, οἱ τῆς αὐτοῦ θερμῆς ἀντιλήψεως πεπειραμένοι, βοῶντες· πάτερ ὅσιε, πρέσβευε Χριστῷ τῷ Θεῷ, σωθῆναι τὰς ψυχὰς ἡμῶν.
 life: "Ὁ Ἅγιος Πορφύριος ὁ Καυσοκαλυβίτης (κατὰ κόσμον Εὐάγγελος Μπαϊρακτάρης) γεννήθηκε στὶς 7 Φεβρουαρίου 1906 στὸν Ἅγιο Ἰωάννη Καρυστίας τῆς Εὐβοίας. Μοναχὸς ἀπὸ 14 ἐτῶν στὴ Σκήτη Καυσοκαλυβίων Ἁγίου Ὄρους. Ἐκοιμήθη στὶς 2 Δεκεμβρίου 1991. Ἀνακηρύχθηκε ἅγιος τὸ 2013."
 language: el
-iconUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Porphyrios_Kafsokalyvitis.jpg/600px-Porphyrios_Kafsokalyvitis.jpg"
-iconAttribution: "Wikimedia Commons · Public domain"
 wikipediaTitle: "Porphyrios (Bairaktaris) the Kavsokalyvite"
 license: original
 ---

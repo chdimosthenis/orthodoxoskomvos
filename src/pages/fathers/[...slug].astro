@@ -23,9 +23,22 @@ if (entry.data.feastDay) {
   const dt = new Date(2024, Number(month) - 1, Number(day));
   dateStr = dt.toLocaleDateString('el-GR', { day: 'numeric', month: 'long' });
 }
+
+// JSON-LD Person schema for search-engine rich snippets.
+const jsonld: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: entry.data.fullName,
+  alternateName: entry.data.name,
+  description: entry.data.summary,
+  honorificPrefix: 'Ἅγιος',
+  hasOccupation: { '@type': 'Occupation', name: 'Πατὴρ τῆς Ἐκκλησίας' },
+  inLanguage: entry.data.language,
+  ...(entry.data.sourceUrl && { sameAs: entry.data.sourceUrl }),
+};
 ---
 
-<BaseLayout title={entry.data.fullName} description={entry.data.summary}>
+<BaseLayout title={entry.data.fullName} description={entry.data.summary} jsonld={jsonld}>
   <article>
     <header class="father-header">
       <h1 lang={entry.data.language}>{entry.data.fullName}</h1>

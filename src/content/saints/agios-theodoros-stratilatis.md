@@ -1,11 +1,14 @@
 ---
-name: "Ἅγιος Θεόδωρος ὁ Στρατηλάτης"
-feastDay: "02-08"
+name: Ἅγιος Θεόδωρος ὁ Στρατηλάτης
+feastDay: 02-08
 category: martyr
-life: "Ἀρχιστράτηγος Ρωμαϊκοῦ στρατοῦ ἐπὶ Λικινίου ποὺ μαρτύρησε γιὰ τὴν πίστη του (319 μ.Χ.) στὴν Ἡράκλεια τῆς Θράκης."
+life: Ἀρχιστράτηγος Ρωμαϊκοῦ στρατοῦ ἐπὶ Λικινίου ποὺ μαρτύρησε γιὰ τὴν πίστη του (319 μ.Χ.) στὴν Ἡράκλεια
+  τῆς Θράκης.
 language: el
-wikipediaTitle: "Theodore Stratelates"
+wikipediaTitle: Theodore Stratelates
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/7/79/Teodor_Stratilat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Manuel Panselinos · Wikimedia Commons · Public domain
 ---
 
 Ὁ Θεόδωρος ὁ Στρατηλάτης γεννήθηκε στὴν Εὐχάιτα τῆς Μ. Ἀσίας καὶ διακρίθηκε ἀπὸ νωρὶς γιὰ τὴν ἀνδρεία του στὸν Ρωμαϊκὸ στρατό. Ὁ αὐτοκράτορας Λικίνιος, παρόλο ποὺ ἦταν εἰδωλολάτρης, τὸν διόρισε στρατηλάτη (ἀρχιστράτηγο) τῆς λεγεώνας τῆς Ἡράκλειας — πόλη στὴ Θράκη μὲ μεγάλη στρατηγικὴ σημασία.

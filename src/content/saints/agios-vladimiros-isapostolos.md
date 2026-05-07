@@ -1,11 +1,15 @@
 ---
-name: "Ἅγιος Βλαδίμηρος ὁ Μέγας Ἰσαπόστολος"
-feastDay: "07-15"
+name: Ἅγιος Βλαδίμηρος ὁ Μέγας Ἰσαπόστολος
+feastDay: 07-15
 category: other
-life: "Μέγας Πρίγκιπας Κιέβου (10ος-11ος αἰ.)· βαπτίστηκε τὸ 988 καὶ ὑποχρέωσε ὅλη τὴ Ρωσία νὰ βαπτιστεῖ· ἐγγονὸς τῆς Ἁγίας Ὄλγας."
+life: Μέγας Πρίγκιπας Κιέβου (10ος-11ος αἰ.)· βαπτίστηκε τὸ 988 καὶ ὑποχρέωσε ὅλη τὴ Ρωσία νὰ βαπτιστεῖ·
+  ἐγγονὸς τῆς Ἁγίας Ὄλγας.
 language: el
-wikipediaTitle: "Vladimir the Great"
+wikipediaTitle: Vladimir the Great
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/3/3a/Vladimir_Svyatoslavovich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Гравюра Ивана Ивановича Матюшина с рисунка проф. Ф.Г. Солнцева · Wikimedia Commons ·
+  Public domain
 ---
 
 Ὁ Βλαδίμηρος γεννήθηκε γύρω στὸ 958 ὡς ἐγγονὸς τῆς Ἁγίας Ὄλγας καὶ γιὸς τοῦ Σβιατοσλάβου. Στὰ νεανικά του χρόνια ἦταν παγανιστὴς — εἶχε ἑπτὰ συζύγους, πολλὲς παλλακίδες, καὶ ἀναγνωρίζεται ὡς πολυλάτρης ποὺ ἐνίσχυσε τὸν παγανιστικὸ πολυθεϊσμό τῆς Ρωσίας.

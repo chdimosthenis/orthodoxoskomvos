@@ -1,11 +1,14 @@
 ---
-name: "Ὅσιος Συμεὼν ὁ Στυλίτης"
-feastDay: "09-01"
+name: Ὅσιος Συμεὼν ὁ Στυλίτης
+feastDay: 09-01
 category: monastic
-life: "Πρῶτος στυλίτης (5ος αἰ.)· ἀσκήτεψε γιὰ 37 χρόνια ἐπάνω σὲ ἕνα στῦλο στὴ Συρία· ἐμπνευστὴς ὁλόκληρης μοναστικῆς παράδοσης."
+life: Πρῶτος στυλίτης (5ος αἰ.)· ἀσκήτεψε γιὰ 37 χρόνια ἐπάνω σὲ ἕνα στῦλο στὴ Συρία· ἐμπνευστὴς ὁλόκληρης
+  μοναστικῆς παράδοσης.
 language: el
-wikipediaTitle: "Simeon Stylites"
+wikipediaTitle: Simeon Stylites
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Plaque_de_Saint-Simeon_%28Louvre%2C_Bj_2180%29_%28cropped%29.jpg/960px-Plaque_de_Saint-Simeon_%28Louvre%2C_Bj_2180%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Tangopaso · Wikimedia Commons · Public domain
 ---
 
 Ὁ Συμεὼν γεννήθηκε γύρω στὸ 390 σὲ χωριὸ τῆς ὀρεινῆς Κιλικίας. Σὲ ἡλικία δεκατριῶν ἐτῶν, ἀκούγοντας τοὺς Μακαρισμοὺς στὴν ἐκκλησία, ζήτησε νὰ καταλάβει τί σήμαινε «μακάριοι οἱ καθαροὶ τῇ καρδίᾳ». Ἕνας γέροντας τοῦ ἀπάντησε: «Σιωπή, νηστεία, προσευχή, ταπείνωση». Ἀπὸ τότε ξεκίνησε τὴν ἀσκητική του πορεία.

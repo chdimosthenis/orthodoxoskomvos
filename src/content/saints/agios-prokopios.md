@@ -1,11 +1,14 @@
 ---
-name: "Ἅγιος Προκόπιος ὁ Μεγαλομάρτυς"
-feastDay: "07-08"
+name: Ἅγιος Προκόπιος ὁ Μεγαλομάρτυς
+feastDay: 07-08
 category: martyr
-life: "Ρωμαῖος ἀξιωματικὸς ποὺ μετεστράφη στὸν χριστιανισμὸ ὕστερα ἀπὸ ὅραμα Σταυροῦ· μαρτύρησε στὰ Ἱεροσόλυμα ἐπὶ Διοκλητιανοῦ (303)."
+life: Ρωμαῖος ἀξιωματικὸς ποὺ μετεστράφη στὸν χριστιανισμὸ ὕστερα ἀπὸ ὅραμα Σταυροῦ· μαρτύρησε στὰ Ἱεροσόλυμα
+  ἐπὶ Διοκλητιανοῦ (303).
 language: el
-wikipediaTitle: "Procopius of Scythopolis"
+wikipediaTitle: Procopius of Scythopolis
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/St_Procopius_Icon_Sinai_13th_century.jpg/960px-St_Procopius_Icon_Sinai_13th_century.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 ---
 
 Ὁ Προκόπιος —τὸ προηγούμενο ὄνομά του ἦταν Νεάνιος— γεννήθηκε στὰ Ἱεροσόλυμα ἀπὸ μητέρα χριστιανὴ καὶ πατέρα εἰδωλολάτρη. Στρατεύθηκε στὸν Ρωμαϊκὸ στρατὸ καὶ ἐνέβη ἀξιωματικὸς ἐπὶ τοῦ Διοκλητιανοῦ. Σὲ μιὰ ἀποστολὴ διώξεως χριστιανῶν στὴν Ἀλεξάνδρεια, εἶδε σὲ ὅραμα ἕναν Σταυρὸ φωτεινὸ μὲ τὴν ἐπιγραφὴ «Ἐν τούτῳ νίκα» — ἴδιο ὅραμα ποὺ θὰ εἶχε ἀργότερα ὁ Κωνσταντῖνος.

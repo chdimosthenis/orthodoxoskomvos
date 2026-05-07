@@ -1,11 +1,14 @@
 ---
-name: "Ἅγιος Σέργιος τοῦ Ραντονέζ"
-feastDay: "09-25"
+name: Ἅγιος Σέργιος τοῦ Ραντονέζ
+feastDay: 09-25
 category: monastic
-life: "Ρῶσος μοναχὸς (1314-1392)· ἱδρυτὴς τῆς Λαύρας Τριάδος-Σεργίου· πατὴρ τοῦ ρωσικοῦ μοναχισμοῦ καὶ πνευματικὸς ἡγέτης τοῦ ρωσικοῦ λαοῦ."
+life: Ρῶσος μοναχὸς (1314-1392)· ἱδρυτὴς τῆς Λαύρας Τριάδος-Σεργίου· πατὴρ τοῦ ρωσικοῦ μοναχισμοῦ καὶ
+  πνευματικὸς ἡγέτης τοῦ ρωσικοῦ λαοῦ.
 language: el
-wikipediaTitle: "Sergius of Radonezh"
+wikipediaTitle: Sergius of Radonezh
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/%D0%A1%D0%B5%D1%80%D0%B3%D0%B8%D0%B9_%D0%A0%D0%B0%D0%B4%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%B8%D0%B9_%D0%9F%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0.jpg/960px-%D0%A1%D0%B5%D1%80%D0%B3%D0%B8%D0%B9_%D0%A0%D0%B0%D0%B4%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%B8%D0%B9_%D0%9F%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+iconAttribution: Unknown author · Wikimedia Commons · CC BY-SA 4.0
 ---
 
 Ὁ Βαρθολομαῖος —τὸ κατὰ κόσμον ὄνομα τοῦ Σεργίου— γεννήθηκε τὸ 1314 σὲ μιὰ μικρὴ πόλη βόρεια τῆς Μόσχας. Σὲ ἡλικία εἴκοσι ἐτῶν, μετὰ τὸν θάνατο τῶν γονέων του, ἀναχώρησε μαζὶ μὲ τὸν ἀδελφό του Στέφανο σὲ μιὰ πυκνὸ δάσος γιὰ ἀσκητικὸ βίο. Ἔχτισαν μιὰ μικρὴ ἐκκλησία ἀφιερωμένη στὴν Ἁγία Τριάδα — τὴν πρώτη πέτρα τῆς μετέπειτα διάσημης Λαύρας.

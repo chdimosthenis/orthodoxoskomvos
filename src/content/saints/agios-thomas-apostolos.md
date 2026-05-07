@@ -1,11 +1,14 @@
 ---
-name: "Ἅγιος Θωμᾶς ὁ Ἀπόστολος"
-feastDay: "10-06"
+name: Ἅγιος Θωμᾶς ὁ Ἀπόστολος
+feastDay: 10-06
 category: apostle
-life: "Ἕνας ἐκ τῶν δώδεκα Ἀποστόλων· ψηλάφησε τὶς πληγὲς τοῦ Ἀναστάντος Χριστοῦ· κήρυξε στὶς Ἰνδίες ὅπου καὶ μαρτύρησε."
+life: Ἕνας ἐκ τῶν δώδεκα Ἀποστόλων· ψηλάφησε τὶς πληγὲς τοῦ Ἀναστάντος Χριστοῦ· κήρυξε στὶς Ἰνδίες ὅπου
+  καὶ μαρτύρησε.
 language: el
-wikipediaTitle: "Thomas the Apostle"
+wikipediaTitle: Thomas the Apostle
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/f/fb/Last_Supper_by_Theophanes_the_Cretan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Theophanes the Cretan · Wikimedia Commons · Public domain
 ---
 
 Ὁ Θωμᾶς, γνωστὸς καὶ ὡς Δίδυμος, ἦταν ἀπὸ τὴ Γαλιλαία καὶ ἕνας ἀπὸ τοὺς δώδεκα μαθητὲς τοῦ Κυρίου. Ἀπουσίαζε ὅταν ὁ Ἀναστὰς Χριστὸς ἐμφανίστηκε στοὺς ὑπολοίπους τὴν Κυριακὴ τοῦ Πάσχα, καὶ ἀρνήθηκε νὰ πιστέψει χωρὶς νὰ ψηλαφήσει τὶς πληγές. Ὀκτὼ ἡμέρες ἀργότερα, ὁ Κύριος ἐμφανίστηκε ξανὰ ἐιδικὰ γιὰ αὐτόν, καὶ ὁ Θωμᾶς ὁμολόγησε: «Ὁ Κύριός μου καὶ ὁ Θεός μου» (Ἰω. 20,28) — ἡ ξεκάθαρη χριστολογικὴ ὁμολογία τῆς Καινῆς Διαθήκης.

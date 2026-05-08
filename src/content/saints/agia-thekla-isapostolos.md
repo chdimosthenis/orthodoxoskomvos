@@ -10,8 +10,8 @@ wikipediaTitle: Thecla
 license: original
 reposeYear: 1
 reposeLabel: 1ος αἰών
-iconUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/St._Tecla.JPG/960px-St._Tecla.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-iconAttribution: Shesmax · Wikimedia Commons · CC BY-SA 3.0
+iconUrl: "https://upload.wikimedia.org/wikipedia/commons/b/be/Saint_Thecla_%28Menologion_of_Basil_II%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+iconAttribution: "Μηνολόγιον Βασιλείου Β' (~985), Βατικανὴ Βιβλιοθήκη · Wikimedia Commons · Public domain"
 ---
 
 Ἡ Ἁγία Θέκλα γεννήθηκε περὶ τὸ 30 μ.Χ. στὸ Ἰκόνιον τῆς Λυκαονίας ἀπὸ ἐπιφανῆ καὶ εὔπορη οἰκογένεια εἰδωλολατρῶν. Ὅταν ὁ Ἀπόστολος Παῦλος ἔφτασε στὴν πόλη της κατὰ τὴν πρώτη του ἱεραποστολικὴ περιοδεία (περὶ τὸ 47 μ.Χ.) καὶ φιλοξενήθηκε στὴν οἰκία τοῦ Ὀνησιφόρου, ἡ Θέκλα, ὀκτωκαίδεκα ἐτῶν τότε καὶ ἀρραβωνιασμένη μὲ τὸν Θάμυριν, ἀκούγοντας τὸ κήρυγμά του ἀπὸ τὸ παράθυρο τῆς γειτονικῆς οἰκίας ἐπὶ τρεῖς ἡμέρες, ἑλκύσθηκε ὁλόκληρη ἀπὸ τὸν λόγο τοῦ Εὐαγγελίου. Ἀρνήθηκε τὸν γάμο, ἀρνήθηκε τὰ πλούτη, ἀρνήθηκε τὴν ἐθνικὴ θρησκεία, καὶ ἀκολούθησε τὸν Παῦλο ὡς μαθήτριά του.

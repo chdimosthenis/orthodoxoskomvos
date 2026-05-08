@@ -72,7 +72,7 @@ export const ui = {
     'history.section.autocephalous': 'Αὐτοκέφαλες Ὀρθόδοξες Ἐκκλησίες',
     'history.section.schisms': 'Σχίσματα & Ἀντιπαραθέσεις',
     'history.section.councilsOther': 'Λοιπαὶ Σύνοδοι',
-    'site.title': 'Ορθόδοξος Λόγος',
+    'site.title': 'Ορθόδοξος Κόμβος',
     'site.tagline': 'Ψηφιακή συγκέντρωση πατερικών κειμένων, βίων αγίων, ακολουθιών και νέων τῆς Ὀρθοδοξίας.',
     'today.saint': 'Σήμερα η Εκκλησία τιμά',
     'today.none': 'Σήμερα δεν εορτάζει εγγεγραμμένος άγιος.',

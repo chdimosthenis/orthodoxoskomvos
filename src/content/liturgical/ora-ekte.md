@@ -1,5 +1,5 @@
 ---
-title: Ὧρα ΣΤ'
+title: Ὥρα ΣΤ'
 type: akolouthia
 source: 'Παραδοσιακὸ λειτουργικὸ κείμενο — Public domain. Ψηφιακὴ ἔκδοση: Ἑλληνικὴ Ὀρθόδοξος Ἀρχιεπισκοπὴ
   Ἀμερικῆς, Liturgical Texts Project (glt.goarch.org).'

@@ -23,8 +23,8 @@ export async function GET(context: APIContext) {
     });
 
   return rss({
-    title: 'Ορθόδοξος Λόγος',
-    description: 'Πατερικά κείμενα, βίοι αγίων, ακολουθίες — με σεβασμό στις πηγές.',
+    title: 'Ορθόδοξος Κόμβος',
+    description: 'Ψηφιακή συγκέντρωση πατερικών κειμένων, βίων αγίων, ακολουθιών και νέων τῆς Ὀρθοδοξίας.',
     site: context.site!,
     items,
     customData: '<language>el</language>',

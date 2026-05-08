@@ -111,4 +111,24 @@ const bible = defineCollection({
   }),
 });
 
-export const collections = { articles, fathers, saints, liturgical, bible };
+// Interpretive essays on New-Testament passages (parables, miracles,
+// discourses, narrative, epistles). Lives at /bible/erminies/<slug>.
+const erminies = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/erminies' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    pubDate: z.coerce.date(),
+    author: z.string(),
+    /** Biblical reference, e.g. "Λουκᾶς 10, 25-37". */
+    reference: z.string(),
+    /** Genre of the passage being interpreted. */
+    topic: z.enum(['parable', 'miracle', 'discourse', 'narrative', 'epistle']),
+    language: z.enum(['el', 'en']),
+    license: z.enum(['public-domain', 'CC-BY', 'CC-BY-SA', 'original']).optional(),
+    tags: z.array(z.string()).optional(),
+    draft: z.boolean().optional().default(false),
+  }),
+});
+
+export const collections = { articles, fathers, saints, liturgical, bible, erminies };

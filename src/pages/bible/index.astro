@@ -1,99 +1,65 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
-import { getLangFromUrl, useTranslations, getLocalizedPath } from '../../i18n/utils';
-import type { UIKey } from '../../i18n/ui';
+import { useTranslations } from '../../i18n/utils';
 
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
+const t = useTranslations('el');
 
-const books = (await getCollection('bible'))
-  .filter(b => b.data.language === lang)
-  .sort((a, b) => a.data.order - b.data.order);
-
-const sections = [
-  { id: 'gospels',     title: t('bible.section.gospels'),    div: 'gospel' },
-  { id: 'acts',        title: t('bible.section.acts'),       div: 'acts' },
-  { id: 'paul',        title: t('bible.section.paul'),       div: 'paul' },
-  { id: 'general',     title: t('bible.section.general'),    div: 'general' },
-  { id: 'revelation',  title: t('bible.section.revelation'), div: 'revelation' },
-] as const;
+const cards = [
+  {
+    title: 'Πλῆρες Κείμενο',
+    href: '/bible/keimeno',
+    desc: 'Ὅλα τὰ 27 βιβλία τῆς Καινῆς Διαθήκης σὲ πολυτονικὴ ἑλληνικὴ — Πατριαρχικὸ Κείμενο τοῦ 1904.',
+  },
+  {
+    title: 'Ἑρμηνεῖες',
+    href: '/bible/erminies',
+    desc: 'Ἑρμηνευτικὰ ἄρθρα γιὰ παραβολές, θαύματα, ὁμιλίες καὶ κορυφαῖα χωρία τῆς Καινῆς Διαθήκης.',
+  },
+].sort((a, b) => a.title.localeCompare(b.title, 'el-GR'));
 ---
 
 <BaseLayout title={t('bible.title')}>
   <h1>{t('bible.title')}</h1>
   <p class="muted">{t('bible.intro')}</p>
 
-  {books.length === 0 ? (
-    <p class="muted">{t('no.entries')}</p>
-  ) : sections.map(section => {
-    const inSection = books.filter(b => b.data.division === section.div);
-    if (inSection.length === 0) return null;
-    return (
-      <section class="bible-section" id={section.id}>
-        <h2>{section.title}</h2>
-        <ul class="bible-list">
-          {inSection.map(b => (
-            <li class="bible-card">
-              <a href={getLocalizedPath(`/bible/${b.id}`, lang)} lang={b.data.language}>
-                <span class="bible-order">{b.data.order}</span>
-                <span class="bible-name">{b.data.book}</span>
-                {b.data.chapters && (
-                  <span class="bible-chapters">{b.data.chapters} {t('bible.chapters')}</span>
-                )}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
-    );
-  })}
+  <ul class="cluster-grid">
+    {cards.map(c => (
+      <li class="cluster-card">
+        <a href={c.href}>
+          <h2>{c.title}</h2>
+          <p class="muted">{c.desc}</p>
+        </a>
+      </li>
+    ))}
+  </ul>
 </BaseLayout>
 
 <style>
-  .bible-section { margin-top: 2.5rem; }
-  .bible-section h2 {
-    margin-top: 0;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--color-border);
-  }
-  .bible-list {
+  .cluster-grid {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 2rem 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
-    gap: 0.5rem 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
   }
-  .bible-card a {
-    display: flex;
-    align-items: baseline;
-    gap: 0.6rem;
-    padding: 0.6rem 0.5rem;
+  .cluster-card {
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    transition: border-color 0.15s;
+  }
+  .cluster-card:hover { border-color: var(--color-accent); }
+  .cluster-card a {
+    display: block;
+    padding: 1.1rem 1.2rem;
     color: var(--color-text);
-    text-decoration: none;
-    border-bottom: 1px dashed var(--color-border);
-    border-radius: 2px;
-    transition: background 0.15s ease;
+    border-bottom: none;
+    height: 100%;
   }
-  .bible-card a:hover {
-    background: var(--color-attribution-bg);
-    color: var(--color-accent);
+  .cluster-card h2 {
+    margin: 0 0 0.4rem;
+    font-size: 1.15rem;
+    line-height: 1.25;
   }
-  .bible-order {
-    flex-shrink: 0;
-    min-width: 1.6rem;
-    font-family: var(--font-sans);
-    font-size: 0.78rem;
-    color: var(--color-muted);
-    text-align: right;
-  }
-  .bible-name { flex: 1; font-size: 1.05rem; }
-  .bible-chapters {
-    flex-shrink: 0;
-    font-family: var(--font-sans);
-    font-size: 0.75rem;
-    color: var(--color-muted);
-    letter-spacing: 0.04em;
-  }
+  .cluster-card p { margin: 0; font-size: 0.92rem; }
 </style>

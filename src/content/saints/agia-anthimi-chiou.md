@@ -8,8 +8,8 @@ life: "Ἡ Ἁγία Ἀνθίμη (κατὰ κόσμον Ἀνθή) γεννή
 language: el
 wikipediaTitle: "Anthimi of Chios"
 license: original
-reposeYear: 1856
-reposeLabel: "†1856"
+reposeYear: 1980
+reposeLabel: "†1980"
 ---
 
 Ἡ Ὁσία Ἀνθίμη ἦταν μία ἀπὸ τὶς λιγότερο γνωστὲς ἀλλὰ πνευματικὰ πιὸ

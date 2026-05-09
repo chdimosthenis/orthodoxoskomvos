@@ -33,7 +33,7 @@ from _common import CONTENT_ROOT, log
 
 
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
-HEADERS = {"User-Agent": "OrthodoxLogos/1.0 (icon fetcher; +https://orthodox-site.pages.dev)"}
+HEADERS = {"User-Agent": "OrthodoxLogos/1.0 (icon fetcher; +https://orthodoxoskomvos.gr)"}
 
 # Try Greek Wikipedia first — its infobox usually shows an Orthodox icon
 # rather than a Western painting (which the English article often leads with).

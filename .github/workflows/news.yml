@@ -57,7 +57,7 @@ jobs:
         if: steps.changes.outputs.changed == '1'
         run: |
           git config user.name "orthodox-news-bot"
-          git config user.email "noreply@orthodox-site.pages.dev"
+          git config user.email "noreply@orthodoxoskomvos.gr"
           git add src/data/news.json src/data/news/
           ts=$(date -u +%Y-%m-%dT%H:%MZ)
           today=$(date -u +%Y-%m-%d)

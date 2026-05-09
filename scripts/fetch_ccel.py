@@ -22,7 +22,7 @@ from _common import (
 
 
 HEADERS = {
-    "User-Agent": "OrthodoxLogos/1.0 (content seeder; +https://orthodox-site.pages.dev)",
+    "User-Agent": "OrthodoxLogos/1.0 (content seeder; +https://orthodoxoskomvos.gr)",
 }
 
 

@@ -1,7 +1,7 @@
 # Orthodox Logos — project context
 
 Bilingual (Greek/English) Orthodox Christian content site. Live at
-<https://orthodox-site.pages.dev>. Repo at
+<https://orthodoxoskomvos.gr>. Repo at
 <https://github.com/chdimosthenis/orthodox-site>.
 
 ## Stack

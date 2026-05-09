@@ -34,7 +34,7 @@ from _common import check_exists, log, make_slug, write_content
 
 
 WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
-HEADERS = {"User-Agent": "OrthodoxLogos/1.0 (daily seed bot; +https://orthodox-site.pages.dev)"}
+HEADERS = {"User-Agent": "OrthodoxLogos/1.0 (daily seed bot; +https://orthodoxoskomvos.gr)"}
 
 # Map keywords found in section headings to our `category` enum
 SECTION_CATEGORY: list[tuple[str, str]] = [

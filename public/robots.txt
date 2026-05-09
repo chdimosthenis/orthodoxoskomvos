@@ -11,4 +11,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://orthodox-site.pages.dev/sitemap-index.xml
+Sitemap: https://orthodoxoskomvos.gr/sitemap-index.xml

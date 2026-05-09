@@ -37,7 +37,7 @@ from _common import (
 BASE_URL = "https://glt.goarch.org/texts/"
 
 HEADERS = {
-    "User-Agent": "OrthodoxLogos/1.0 (educational seeder; https://orthodox-site.pages.dev)",
+    "User-Agent": "OrthodoxLogos/1.0 (educational seeder; https://orthodoxoskomvos.gr)",
     "Accept-Language": "el-GR,el;q=0.9,en;q=0.5",
 }
 

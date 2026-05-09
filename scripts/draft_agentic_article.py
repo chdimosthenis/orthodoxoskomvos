@@ -50,7 +50,7 @@ MODELS = {
 
 # Static — gets prompt-cached. Edit this to tune the agentic article voice.
 SYSTEM_PROMPT_BASE = """You are drafting a weekly editorial article for a
-Greek-speaking Orthodox Christian content site (orthodox-site.pages.dev).
+Greek-speaking Orthodox Christian content site (orthodoxoskomvos.gr).
 The audience is educated Greek Orthodox lay readers familiar with the
 liturgical year and basic theology.
 

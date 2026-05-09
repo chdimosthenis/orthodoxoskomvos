@@ -34,7 +34,7 @@ from _common import (
 
 
 HEADERS = {
-    "User-Agent": "OrthodoxLogos/1.0 (bible seeder; +https://orthodox-site.pages.dev)",
+    "User-Agent": "OrthodoxLogos/1.0 (bible seeder; +https://orthodoxoskomvos.gr)",
     "Accept-Language": "el-GR,el;q=0.9",
 }
 

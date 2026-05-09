@@ -92,7 +92,7 @@ def to_iso(struct_time) -> str | None:
 
 def fetch_source(label: str, url: str) -> list[dict[str, Any]]:
     log(f"GET {url}")
-    feed = feedparser.parse(url, agent="OrthodoxLogos/1.0 (news aggregator; +https://orthodox-site.pages.dev)")
+    feed = feedparser.parse(url, agent="OrthodoxLogos/1.0 (news aggregator; +https://orthodoxoskomvos.gr)")
 
     if feed.bozo and not feed.entries:
         log(f"  failed to parse: {feed.bozo_exception}", level="warn")

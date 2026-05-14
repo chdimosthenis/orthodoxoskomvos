@@ -20,9 +20,21 @@ interface Props {
    * for richer SERP snippets. Pass `undefined` (default) to skip.
    */
   breadcrumbs?: Array<{ name: string; url: string }>;
+  /** og:type — defaults to 'website'. Pass 'article' on article/erminia pages. */
+  ogType?: 'website' | 'article';
+  /** ISO datetime for article:published_time (FB enrichment for og:type=article). */
+  articlePublished?: string;
+  /** ISO datetime for article:modified_time. */
+  articleModified?: string;
+  /** Author display name for article:author. */
+  articleAuthor?: string;
 }
 
-const { title, description, ogImage = '/og-default.png', wide = false, jsonld, noindex = false, breadcrumbs } = Astro.props;
+const {
+  title, description, ogImage = '/og-default.png', wide = false, jsonld,
+  noindex = false, breadcrumbs,
+  ogType = 'website', articlePublished, articleModified, articleAuthor,
+} = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
@@ -75,8 +87,10 @@ if (breadcrumbs && breadcrumbs.length > 0) {
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="alternate icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <title>{fullTitle}</title>
@@ -84,17 +98,30 @@ if (breadcrumbs && breadcrumbs.length > 0) {
     <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'} />
     <link rel="canonical" href={canonical.toString()} />
     <link rel="alternate" type="application/rss+xml" title={`${siteTitle} — RSS`} href="/rss.xml" />
+    <meta property="og:site_name" content={siteTitle} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical.toString()} />
     <meta property="og:image" content={ogUrl.toString()} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={fullTitle} />
     <meta name="twitter:image" content={ogUrl.toString()} />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={desc} />
     <meta property="og:locale" content="el_GR" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#6b1b2c" />
+    {ogType === 'article' && articlePublished && (
+      <meta property="article:published_time" content={articlePublished} />
+    )}
+    {ogType === 'article' && articleModified && (
+      <meta property="article:modified_time" content={articleModified} />
+    )}
+    {ogType === 'article' && articleAuthor && (
+      <meta property="article:author" content={articleAuthor} />
+    )}
 
     <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
     {pageJsonld.map(j => (

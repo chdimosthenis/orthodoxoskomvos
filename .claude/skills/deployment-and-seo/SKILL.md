@@ -12,8 +12,8 @@ description: Post-launch operational state of orthodoxoskomvos.gr — what's act
 - GitHub repo: `chdimosthenis/orthodox-site`, branch `main`
 - Hosting: Cloudflare **Workers + Static Assets** (the unified Pages/Workers path; that's why the fallback is `*.workers.dev`, not `*.pages.dev`)
 - Auto-deploy: every push to `main` rebuilds in ~1-2 min
-- Build command: `astro build && pagefind --site dist`
-- Build output: 424 pages, Pagefind indexes ~28,576 words across 1 language (el)
+- Build command: `astro build && pagefind --site dist/client` (the `dist/client` path is mandatory — see "Pagefind path gotcha" below)
+- Build output: 438 pages, Pagefind indexes ~28,791 words across 1 language (el)
 - Node version: pinned to **22.12.0** via `.nvmrc` (required — Cloudflare's default is older and breaks the Astro 6 build)
 
 ## Domain history — the actual path that worked
@@ -26,6 +26,16 @@ The domain was on **Papaki** (Greek registrar), not on Cloudflare, at the start 
 4. Wait for zone status to become **Active** (≤ 24h for .gr, typically much faster), then attach the custom domain to the Worker in dashboard → Workers & Pages → orthodox-site → Custom Domains
 
 If Cloudflare's UI says *"Only domains active on your Cloudflare account can be added"* when attaching a custom domain, the zone is not Active yet — wait, then retry.
+
+## Pagefind path gotcha (caught 2026-05-15)
+
+The `@astrojs/cloudflare` adapter writes the SSR build into `dist/server/` and the static-asset payload into `dist/client/`. The generated `dist/server/wrangler.json` pins `assets.directory: "../client"`, so **only files under `dist/client/` ship as static assets** — anything else under `dist/` is invisible to the deployed Worker.
+
+The original build command `pagefind --site dist` wrote the search index to `dist/pagefind/`, a sibling of `client/`. Result: `https://orthodoxoskomvos.gr/pagefind/pagefind-ui.js` returned 404, `PagefindUI` stayed undefined on `/search`, and the page showed the dev-mode fallback message *"Ο δείκτης αναζήτησης δεν είναι διαθέσιμος σε dev mode. Τρέξε npm run build."* in production.
+
+Fix: `pagefind --site dist/client` — pagefind crawls the HTML where it actually lives and writes its index next to it. Verify locally with `ls dist/client/pagefind/` (must contain `pagefind-ui.js`, `pagefind.js`, `wasm.el.pagefind`, `fragment/`, `index/`).
+
+The root `wrangler.jsonc` still says `assets.directory: "./dist"`, but the adapter overrides this at build time via the generated `dist/server/wrangler.json`, which is what `wrangler deploy` actually consumes.
 
 ## Cloudflare zone settings (do once, done as of 2026-05-14)
 
@@ -128,6 +138,24 @@ Added optional `updatedDate: z.coerce.date().optional()` to both `articles` and 
 - Pillow is required in the venv (`pip install Pillow`).
 - Caught 2026-05-14 — FB/LI previews kept showing "Ὀρθόδοξος Λόγος" weeks after the site renamed to "Ὀρθόδοξος Κόμβος".
 
+### Cross logo in `_make_og_default.py` is DRAWN, not a font glyph
+- Pre-2026-05-15 the script rendered the Chi-Rho (☧, U+2627) using `font_symbol` (Georgia). **Georgia doesn't have the glyph** — it shipped as a tofu rectangle on every share. Caught when the user reported "a red square instead of the logo with the cross".
+- Now `draw_orthodox_cross(drw, cx, cy, scale, color)` draws the eight-pointed Orthodox cross via PIL primitives, mirroring the geometry of `public/favicon.svg` (32×32 viewBox scaled up). No font dependency = always renders.
+- Geometry source-of-truth = `public/favicon.svg`. If the favicon changes, port the new rect coords + rotation into `draw_orthodox_cross`.
+- **Don't substitute Unicode cross glyphs** (☩, ✝, ☦) — most fonts only carry a subset, you'll hit the same tofu issue on a different platform. Draw the shape.
+
+### Polytonic Greek requires the right font (`_make_og_cards.py`)
+- Saint frontmatter `name` fields use the polytonic Unicode block (Greek Extended, U+1F00–U+1FFF) for breathing marks and accents: Ἅ (U+1F0D), Ἰ (U+1F30), ὁ (U+1F41), Ἀ (U+1F08), etc.
+- **Georgia covers only basic Greek** (U+0370–U+03FF). Polytonic letters render as tofu boxes. Caught 2026-05-15 when "Ἅγιος Ἰάκωβος ὁ Ἀδελφόθεος" shipped with all four breathing-mark letters missing.
+- **Font preference order** in `_make_og_cards.py` (and now `_make_og_default.py` for symmetry):
+  1. `palab.ttf` / `pala.ttf` — Palatino Linotype Bold/Roman (ships on Windows, has Greek Extended)
+  2. `cambriab.ttf` / `cambria.ttc` — Cambria Bold/Roman (also ships, also polytonic)
+  3. `timesbd.ttf` / `times.ttf` — Times New Roman, polytonic
+  4. `georgiab.ttf` / `georgia.ttf` — last-resort fallback (monotonic only, breaks polytonic)
+  5. `DejaVuSerif-Bold.ttf` / `DejaVuSerif.ttf` — Linux fallback
+- If you add a new generator script that renders Greek, copy this preference order — don't lead with Georgia.
+- **Validation**: render a card for a saint with multiple polytonic letters (e.g., `agios-iakovos-adelfotheos`, `agios-grigorios-theologos`) and eyeball the breathing marks before shipping.
+
 ## FB / LinkedIn share troubleshooting decision tree
 
 | Symptom user reports | Likely root cause | Fix |
@@ -191,7 +219,7 @@ On Windows, embedded `"..."` quotes in `git commit -m` strings break in PowerShe
 https://search.google.com/test/rich-results?url=https://orthodoxoskomvos.gr/articles/theosis/
 
 # Local build sanity:
-npm run build    # should produce 424 pages + sitemap-index.xml + pagefind/
+npm run build    # should produce 438 pages + sitemap-index.xml + dist/client/pagefind/
 
 # Live sitemap check:
 https://orthodoxoskomvos.gr/sitemap-index.xml    # XML index pointing at sitemap-0.xml

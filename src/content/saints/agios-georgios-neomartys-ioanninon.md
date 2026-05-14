@@ -6,6 +6,8 @@ category: martyr
 life: Νεαρός Ηπειρώτης (1808-1838) που μαρτύρησε στα Ιωάννινα ομολογώντας τον Χριστό μπροστά στις τουρκικές αρχές.
 language: el
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/1/1d/St_George_of_Ionniana_Lithia_Kumanichevo_1850.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Unknown author · Wikimedia Commons · Public domain
 reposeYear: 1838
 reposeLabel: "†1838"
 ---

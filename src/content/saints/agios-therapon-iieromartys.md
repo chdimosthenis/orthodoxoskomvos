@@ -6,6 +6,8 @@ category: martyr
 life: Επίσκοπος και ιερομάρτυρας του 4ου αιώνα, του οποίου τα τίμια λείψανα μετακομίσθηκαν στη Μυτιλήνη.
 language: el
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/commons/9/93/St_Therapon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+iconAttribution: Wolfymoza · Wikimedia Commons · CC BY-SA 4.0
 reposeYear: 300
 reposeLabel: "†c. 300"
 ---

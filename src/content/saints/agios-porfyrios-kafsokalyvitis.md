@@ -8,6 +8,8 @@ life: "Ὁ Ἅγιος Πορφύριος ὁ Καυσοκαλυβίτης (κα
 language: el
 wikipediaTitle: "Porphyrios (Bairaktaris) the Kavsokalyvite"
 license: original
+iconUrl: https://upload.wikimedia.org/wikipedia/en/a/a7/Porphyrios_of_Kafsokalyvia.jpg
+iconAttribution: OrthodoxWiki via English Wikipedia · Fair use
 reposeYear: 1991
 reposeLabel: "†1991"
 ---

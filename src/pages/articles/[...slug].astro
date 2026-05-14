@@ -18,7 +18,8 @@ const t = useTranslations(lang);
 const { Content } = await render(entry);
 const canonical = new URL(Astro.url.pathname, Astro.site).toString();
 const shareUrl = canonical;
-const ogImageAbs = new URL('/og-default.png', Astro.site).toString();
+const ogImagePath = entry.data.image ?? '/og-default.png';
+const ogImageAbs = new URL(ogImagePath, Astro.site).toString();
 
 // Related articles: same language, not self, not draft. Score by shared-tag count,
 // fall back to most-recent peers when the current entry has no tags.
@@ -64,6 +65,7 @@ const jsonld = {
   title={entry.data.title}
   description={entry.data.description}
   jsonld={jsonld}
+  ogImage={ogImagePath}
   ogType="article"
   articlePublished={entry.data.pubDate.toISOString()}
   articleModified={entry.data.updatedDate?.toISOString()}

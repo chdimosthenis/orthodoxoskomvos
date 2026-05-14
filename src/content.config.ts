@@ -15,6 +15,12 @@ const articles = defineCollection({
     sourceUrl: z.string().url().optional(),
     license: z.enum(['public-domain', 'CC-BY', 'CC-BY-SA', 'original']).optional(),
     tags: z.array(z.string()).optional(),
+    /**
+     * Per-article hero image (absolute or root-relative path under public/).
+     * Used as og:image so social shares get a unique, content-specific preview.
+     * Falls back to the brand og-default.png when absent.
+     */
+    image: z.string().optional(),
     draft: z.boolean().optional().default(false),
   }),
 });
@@ -127,6 +133,8 @@ const erminies = defineCollection({
     language: z.enum(['el', 'en']),
     license: z.enum(['public-domain', 'CC-BY', 'CC-BY-SA', 'original']).optional(),
     tags: z.array(z.string()).optional(),
+    /** Per-entry hero image used as og:image; falls back to brand default. */
+    image: z.string().optional(),
     draft: z.boolean().optional().default(false),
   }),
 });

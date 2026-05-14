@@ -79,7 +79,7 @@ def main() -> None:
     drw.text(((W - sw) / 2 - bbox[0], 200 - sh / 2 - bbox[1]), symbol, fill=BURGUNDY, font=font_symbol)
 
     # Brand title — Greek
-    title = "Ορθόδοξος Λόγος"
+    title = "Ορθόδοξος Κόμβος"
     bbox = drw.textbbox((0, 0), title, font=font_title)
     tw = bbox[2] - bbox[0]
     drw.text(((W - tw) / 2 - bbox[0], 340), title, fill=INK, font=font_title)

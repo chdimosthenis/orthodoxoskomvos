@@ -8,10 +8,19 @@ import { getLangFromUrl, useTranslations } from '../i18n/utils';
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
-// Naos-* tagged articles are subsection entries (vestments, orders,
-// architecture), not standalone articles — exclude from rotation.
+// Naos-* tagged articles live under /naos-kai-latreia/<section>/ (vestments,
+// orders, architecture). They're real articles — included in the daily-reading
+// rotation but labeled "Ναὸς & Λατρεία" so the homepage card reflects the
+// section the entry truly belongs to.
 const isNaosEntry = (tags?: readonly string[]) =>
   !!tags && tags.some(t => t.startsWith('naos-'));
+
+// Liturgical type partitions — must stay in lockstep with /ymnoi/index.astro
+// (hymn family) and /proseuxitari/index.astro (prayer). Other liturgical
+// types (apodeipno, paraklesis, chairetismoi, akathistos, theia-metalipsi,
+// akolouthia) live under /akolouthies/ and are NOT in the rotation.
+const HYMN_TYPES = ['hymn', 'tropar', 'kontak', 'ode'] as const;
+const PRAYER_TYPES = ['prayer'] as const;
 
 // Effective "featured day" in Europe/Athens with rollover at 06:00 local.
 // Before 06:00 Athens we still show the previous day's pick; at 06:00 it advances.
@@ -41,13 +50,23 @@ type FeaturedItem = {
   kindLabel: string;
 };
 
-const [articlesAll, erminiesAll, saintsAll, fathersAll] = await Promise.all([
+const [articlesAll, erminiesAll, saintsAll, fathersAll, liturgicalAll] = await Promise.all([
   getCollection('articles'),
   getCollection('erminies'),
   getCollection('saints'),
   getCollection('fathers'),
+  getCollection('liturgical'),
 ]);
 
+// Pool composition — one feed per user-facing section the homepage card
+// can deep-link into. Sections covered:
+//   /didaskalia/         → articles (non-naos)         label "Ἄρθρο"
+//   /naos-kai-latreia/   → articles (naos-* tagged)    label "Ναὸς & Λατρεία"
+//   /bible/erminies/     → erminies                    label "Ἑρμηνεία"
+//   /prosopa/ (saints)   → saints (excl. today)        label "Βίος Ἁγίου"
+//   /prosopa/ (fathers)  → fathers                     label "Πατὴρ τῆς Ἐκκλησίας"
+//   /proseuxitari/       → liturgical type=prayer      label "Προσευχή"
+//   /ymnoi/              → liturgical hymn family      label "Ὕμνος"
 const pool: FeaturedItem[] = [
   ...articlesAll
     .filter(a => a.data.language === lang && !a.data.draft && !isNaosEntry(a.data.tags))
@@ -56,6 +75,14 @@ const pool: FeaturedItem[] = [
       title: a.data.title,
       description: a.data.description,
       kindLabel: 'Ἄρθρο',
+    })),
+  ...articlesAll
+    .filter(a => a.data.language === lang && !a.data.draft && isNaosEntry(a.data.tags))
+    .map(a => ({
+      href: `/articles/${a.id}/`,
+      title: a.data.title,
+      description: a.data.description,
+      kindLabel: 'Ναὸς & Λατρεία',
     })),
   ...erminiesAll
     .filter(e => e.data.language === lang && !e.data.draft)
@@ -80,6 +107,22 @@ const pool: FeaturedItem[] = [
       title: f.data.fullName,
       description: f.data.summary,
       kindLabel: 'Πατὴρ τῆς Ἐκκλησίας',
+    })),
+  ...liturgicalAll
+    .filter(l => l.data.language === lang && (PRAYER_TYPES as readonly string[]).includes(l.data.type))
+    .map(l => ({
+      href: `/liturgical/${l.id}/`,
+      title: l.data.title,
+      description: '',
+      kindLabel: 'Προσευχή',
+    })),
+  ...liturgicalAll
+    .filter(l => l.data.language === lang && (HYMN_TYPES as readonly string[]).includes(l.data.type))
+    .map(l => ({
+      href: `/liturgical/${l.id}/`,
+      title: l.data.title,
+      description: '',
+      kindLabel: 'Ὕμνος',
     })),
 ];
 

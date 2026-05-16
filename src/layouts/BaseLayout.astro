@@ -46,7 +46,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 // stale bytes (e.g. the prior "Ὀρθόδοξος Λόγος" branding). Bump this token
 // whenever the og-default.png file content changes. Per-article images are
 // left unversioned since their URL changes per entry already.
-const OG_DEFAULT_CACHEBUSTER = '2026-05-15';
+const OG_DEFAULT_CACHEBUSTER = '2026-05-16';
 const ogImageResolved = ogImage === '/og-default.png'
   ? `/og-default.png?v=${OG_DEFAULT_CACHEBUSTER}`
   : ogImage;

@@ -115,7 +115,7 @@ Added optional `updatedDate: z.coerce.date().optional()` to both `articles` and 
 - **Idempotent**: re-run skips existing files. Add `--force` to rebuild all, or `--slug <slug> --force` to rebuild one (after editing frontmatter).
 - **Rate-limited**: Wikimedia 429s aggressively at >5 req/sec. The script ships with 0.5s inter-request delay + 2 workers + 429-aware retry — full 463-saint regen takes ~4–5 min.
 - **JPEG quality 85** keeps each card ~85 KB. Full 463-saint set = ~40 MB in repo, within Cloudflare Workers + Static Assets limits.
-- **Mandatory before every commit** that adds/edits saints — encoded in the `add-saint` skill as a hard gate alongside `fetch_icon.py`.
+- **Mandatory before every commit** that adds/edits saints — encoded as a hard gate in `add-saint`, `fix-icon`, and `bulk-seed-and-publish`. The single-purpose skill that owns this responsibility is **`regenerate-og-cards`**: it documents per-slug targeting (`--slug <slug> --force` after a frontmatter edit), the audit step, and why `--force` is needed after `fix-icon` overwrites a stale icon.
 - **Fonts**: prefers `georgia.ttf`/`georgiab.ttf` for polytonic Greek glyph coverage; falls back to DejaVu, then PIL default.
 
 ### Sitemap per-entry `lastmod`
@@ -125,14 +125,14 @@ Added optional `updatedDate: z.coerce.date().optional()` to both `articles` and 
 - Adding `updatedDate: YYYY-MM-DD` to an article frontmatter automatically refreshes its sitemap `lastmod` on next build.
 
 ### OG image cachebusting (FB / LinkedIn fix)
-- `BaseLayout.astro` appends `?v=<token>` to the brand-default og:image URL via `OG_DEFAULT_CACHEBUSTER`. Current token: `2026-05-14`.
+- `BaseLayout.astro` appends `?v=<token>` to the brand-default og:image URL via `OG_DEFAULT_CACHEBUSTER`. Current token: `2026-05-16`.
 - Per-article custom images are left unversioned (their URL changes per entry).
 - **WHY**: FB and LinkedIn cache the **image bytes** keyed on the og:image URL. Re-deploying `og-default.png` at the same path does NOT trigger refresh — those scrapers keep serving the old bytes for ~7 days. Changing the URL via query string forces a fresh fetch.
 - **WHEN TO BUMP** `OG_DEFAULT_CACHEBUSTER`: whenever `public/og-default.png` content actually changes (brand rename, redesign, tagline change). Don't bump for unrelated commits.
 
 ### Brand name is hardcoded in `scripts/_make_og_default.py`
 - Line ~82: `title = "Ορθόδοξος Κόμβος"` (was "Ορθόδοξος Λόγος" pre-2026-05-14 rebrand).
-- Line ~88: `tagline = "Πατερικά κείμενα · Βίοι αγίων · Ακολουθίες"`.
+- Line ~131: `tagline = "Κείμενα · Βίοι αγίων · Ακολουθίες"` (was `"Πατερικά κείμενα · Βίοι αγίων · Ακολουθίες"` until 2026-05-16 — dropped "Πατερικά" because the site hosts biographies/articles ABOUT the Fathers, not the Fathers' actual writings; same logical fix applied simultaneously to `site.tagline` and `about.body` in `src/i18n/ui.ts` and to `src/pages/rss.xml.ts` description). Keep these four surfaces in lockstep on any future tagline change.
 - After editing, re-run: `scripts/venv/Scripts/python.exe scripts/_make_og_default.py`.
 - THEN bump `OG_DEFAULT_CACHEBUSTER` in BaseLayout.
 - Pillow is required in the venv (`pip install Pillow`).

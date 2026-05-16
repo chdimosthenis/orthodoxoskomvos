@@ -128,7 +128,7 @@ def main() -> None:
     drw.text(((W - tw) / 2 - bbox[0], 340), title, fill=INK, font=font_title)
 
     # Tagline
-    tagline = "Πατερικά κείμενα · Βίοι αγίων · Ακολουθίες"
+    tagline = "Κείμενα · Βίοι αγίων · Ακολουθίες"
     bbox = drw.textbbox((0, 0), tagline, font=font_tagline)
     tlw = bbox[2] - bbox[0]
     drw.text(((W - tlw) / 2 - bbox[0], 460), tagline, fill=MUTED, font=font_tagline)
